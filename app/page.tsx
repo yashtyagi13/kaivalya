@@ -222,7 +222,7 @@ export default function Home() {
             <a href="#about" onClick={() => setIsMenuOpen(false)} className="block text-lg font-medium hover:text-white/80">About Us</a>
             <a href="#services" onClick={() => setIsMenuOpen(false)} className="block text-lg font-medium hover:text-white/80">Services</a>
             <a href="#review" onClick={() => setIsMenuOpen(false)} className="block text-lg font-medium hover:text-white/80">Review</a>
-            <a href="#faqs" onClick={() => setIsMenuOpen(false)} className="block text-lg font-medium hover:text-white/80">FAQ'S</a>
+            <a href="#faqs" onClick={() => setIsMenuOpen(false)} className="block text-lg font-medium hover:text-white/80">FAQ&apos;S</a>
             <a href="#contact" onClick={() => setIsMenuOpen(false)} className="block text-lg font-medium hover:text-white/80">Contact Us</a>
             <div className="pt-6 border-t border-white/10">
               <a

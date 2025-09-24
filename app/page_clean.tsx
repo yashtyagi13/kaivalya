@@ -30,7 +30,7 @@ export default function Home() {
           if (entry.isIntersecting) {
             const stat = stats.find(s => s.id === entry.target.id);
             if (stat) {
-              animateNumber(entry.target, stat.target, stat.suffix, stat.prefix);
+              animateNumber(entry.target as HTMLElement, stat.target, stat.suffix, stat.prefix);
               observer.unobserve(entry.target);
             }
           }
