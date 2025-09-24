@@ -24,3 +24,196 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Hero aurora ring backdrop */
+.aurora-ring {
+  position: relative;
+  width: min(1200px, 120vw);
+  height: min(1200px, 120vw);
+  border-radius: 9999px;
+  background: radial-gradient(closest-side, rgba(120, 255, 168, 0.25), rgba(120, 255, 168, 0.08) 30%, rgba(120, 255, 168, 0.02) 55%, transparent 60%),
+    conic-gradient(from 200deg, rgba(124, 58, 237, 0.15), rgba(34, 197, 94, 0.2), rgba(56, 189, 248, 0.15), rgba(124, 58, 237, 0.15));
+  filter: blur(20px);
+  box-shadow: inset 0 0 120px rgba(34, 197, 94, 0.25), 0 40px 160px -60px rgba(34, 197, 94, 0.5);
+  mask-image: radial-gradient(circle at center, black 55%, transparent 65%);
+}
+
+/* Glowing border effects */
+
+/* Continuous running background animations */
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px) translateX(0px);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100px) translateX(50px);
+    opacity: 0;
+  }
+}
+
+@keyframes light-streak {
+  0% {
+    transform: translateY(-100vh) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+.animate-gradient-shift {
+  background-size: 200% 200%;
+  animation: gradient-shift 8s ease-in-out infinite;
+}
+
+.animate-float {
+  animation: float linear infinite;
+}
+
+.animate-light-streak {
+  animation: light-streak linear infinite;
+}
+
+/* Logo strip animation */
+@keyframes logoStrip {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.logo-strip-animation {
+  animation: logoStrip 15s linear infinite;
+  will-change: transform;
+  display: flex;
+}
+
+/* Pause animation on hover */
+.logo-strip-animation:hover {
+  animation-play-state: paused;
+}
+
+/* Alternative animation for better browser support */
+@keyframes scrollStrip {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.scroll-strip {
+  animation: scrollStrip 15s linear infinite;
+  will-change: transform;
+  display: flex;
+}
+
+/* Force animation to work */
+.scroll-strip {
+  animation-name: scrollStrip;
+  animation-duration: 15s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+}
+
+/* Shining animation for text */
+@keyframes shine {
+  0% {
+    background-position: -200% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+@keyframes glow-pulse {
+  0%, 100% {
+    text-shadow: 
+      0 0 5px rgba(255, 255, 255, 0.5),
+      0 0 10px rgba(255, 255, 255, 0.3),
+      0 0 15px rgba(255, 255, 255, 0.1);
+  }
+  50% {
+    text-shadow: 
+      0 0 10px rgba(255, 255, 255, 0.8),
+      0 0 20px rgba(255, 255, 255, 0.6),
+      0 0 30px rgba(255, 255, 255, 0.4),
+      0 0 40px rgba(255, 255, 255, 0.2);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+.shining-text {
+  background: linear-gradient(
+    90deg,
+    transparent,
+    transparent,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.4),
+    transparent,
+    transparent
+  );
+  background-size: 200% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: shine 3s ease-in-out infinite;
+}
+
+.shining-text-glow {
+  animation: glow-pulse 2s ease-in-out infinite;
+}
+
+.shining-text-shimmer {
+  background: linear-gradient(
+    90deg,
+    #ffffff 0%,
+    #ffffff 40%,
+    #00ff88 50%,
+    #ffffff 60%,
+    #ffffff 100%
+  );
+  background-size: 200% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 2.5s ease-in-out infinite;
+}
