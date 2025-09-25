@@ -239,8 +239,8 @@ export default function Home() {
       </div>
 
       {/* Hero */}
-      <main id="home" className="relative mx-auto w-full px-1 sm:px-6 lg:px-8 pt-24 sm:pt-20 lg:pt-24 pb-6 sm:pb-8 lg:pb-10 text-center">
-        <div className="inline-flex items-center gap-2 sm:gap-3 rounded-full border border-pink-500/40 bg-pink-400/10 px-2 sm:px-6 py-2 sm:py-3 text-xs sm:text-sm text-pink-300 shadow-[0_0_30px_-10px_rgba(236,72,153,1)]">
+      <main id="home" className="relative mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 pt-24 sm:pt-20 lg:pt-24 pb-6 sm:pb-8 lg:pb-10 text-center">
+        <div className="inline-flex items-center gap-2 sm:gap-3 rounded-full border border-pink-500/40 bg-pink-400/10 px-4 sm:px-6 py-2 sm:py-3 text-xs sm:text-sm text-pink-300 shadow-[0_0_30px_-10px_rgba(236,72,153,1)]">
           ✨ The World&apos;s Best Vibe Marketing Platform
         </div>
         <h1 className="mt-3 sm:mt-4 text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold tracking-tight leading-tight">
@@ -248,10 +248,10 @@ export default function Home() {
           <br />
           <span className="text-pink-300 shining-text-shimmer">Innovating Narratives | Empowering Brands | Redefining Digital</span>
         </h1>
-        <p className="mx-auto mt-2 sm:mt-3 max-w-xl sm:max-w-2xl text-sm sm:text-base lg:text-lg text-white/70 px-1 sm:px-4">
+        <p className="mx-auto mt-2 sm:mt-3 max-w-xl sm:max-w-2xl text-sm sm:text-base lg:text-lg text-white/70 px-4">
           Innovating Narratives | Empowering Brands | Redefining Digital
         </p>
-        <div className="mt-4 sm:mt-5 flex items-center justify-center px-1 sm:px-4">
+        <div className="mt-4 sm:mt-5 flex items-center justify-center px-4">
           <a id="contact" href="https://wa.me/918299759969?text=Hello%2C%20I%20want%20Information%20About%20Kaivalya%20Digitals%20Services" target="_blank" rel="noopener noreferrer" className="rounded-full bg-[#5b74ff] hover:bg-[#6c83ff] px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base font-medium text-white shadow-[0_10px_30px_-10px_rgba(91,116,255,.9)] transition-all duration-300">
             Get Quote
           </a>
@@ -263,7 +263,7 @@ export default function Home() {
 
       {/* Services Section */}
       <section id="services" className="relative py-4 sm:py-6 lg:py-8 bg-gradient-to-b from-[#1a1a1a] to-[#0a0a0a]">
-        <div className="w-full mx-auto px-1 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Section Header */}
           <div className="text-center mb-8">
             <div className="inline-block bg-pink-900/20 border border-pink-500/30 rounded-full px-6 py-2 mb-4">
@@ -440,7 +440,7 @@ export default function Home() {
 
       {/* About Us Section */}
       <section id="about" className="relative py-8 sm:py-10 lg:py-12 bg-gradient-to-b from-[#0a0a0a] to-[#1a1a1a]">
-        <div className="w-full mx-auto px-1 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             {/* Left Side - Content */}
             <div>
