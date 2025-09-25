@@ -259,74 +259,7 @@ export default function Home() {
         <p className="mt-2 sm:mt-3 text-xs text-white/60">No credit card required</p>
       </main>
 
-      {/* About Us Section */}
-      <section id="about" className="relative py-8 sm:py-10 lg:py-12 bg-gradient-to-b from-[#0a0a0a] to-[#1a1a1a]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-            {/* Left Side - Content */}
-            <div>
-              <div className="inline-block bg-green-900/20 border border-green-500/30 rounded-full px-6 py-2 mb-8">
-                <span className="text-green-400 text-sm font-medium">About Kaivalya Digitals</span>
-              </div>
-              
-              <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
-                <span className="shining-text shining-text-glow">Where Creativity</span>
-                <br />
-                <span className="text-green-300 shining-text-shimmer">Meets Impact</span>
-              </h2>
-              
-              <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
-                <p>
-                  Kaivalya Digitals Pvt. Ltd. is a full-service creative and digital agency 
-                  offering 360° solutions in production, marketing, branding, and technology. 
-                  We help brands, leaders, and institutions amplify their presence through 
-                  powerful stories, smart campaigns, and impactful digital experiences.
-                </p>
-                <p>
-                  Founded on the principles of innovation and excellence, we believe that 
-                  every brand has a unique story waiting to be told. Our team of creative 
-                  minds, strategic thinkers, and technical experts work together to transform 
-                  your vision into compelling digital narratives that resonate with your audience.
-                </p>
-              </div>
-              
-              <div className="mt-8">
-                <a 
-                  href="#services" 
-                  className="inline-flex items-center gap-2 bg-gradient-to-r from-green-500 to-blue-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:from-green-600 hover:to-blue-700 transition-all"
-                >
-                  Explore Our Services
-                  <span className="text-xl">→</span>
-                </a>
-              </div>
-            </div>
-            
-            {/* Right Side - Stats */}
-            <div className="relative">
-              <div className="bg-gradient-to-br from-green-500/20 to-blue-500/20 rounded-2xl p-8 border border-green-500/30">
-                <div className="grid grid-cols-2 gap-6">
-                  <div className="text-center">
-                    <div className="text-3xl font-bold text-green-400 mb-2">360°</div>
-                    <div className="text-sm text-gray-300">Solutions</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-3xl font-bold text-blue-400 mb-2">100+</div>
-                    <div className="text-sm text-gray-300">Projects</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-3xl font-bold text-purple-400 mb-2">50+</div>
-                    <div className="text-sm text-gray-300">Happy Clients</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-3xl font-bold text-yellow-400 mb-2">5+</div>
-                    <div className="text-sm text-gray-300">Years Experience</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      
 
       {/* Services Section */}
       <section id="services" className="relative py-4 sm:py-6 lg:py-8 bg-gradient-to-b from-[#1a1a1a] to-[#0a0a0a]">
@@ -499,6 +432,75 @@ export default function Home() {
                 <p className="text-gray-400">
                   We bring your vision to life with creative excellence and technical precision.
                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* About Us Section */}
+      <section id="about" className="relative py-8 sm:py-10 lg:py-12 bg-gradient-to-b from-[#0a0a0a] to-[#1a1a1a]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+            {/* Left Side - Content */}
+            <div>
+              <div className="inline-block bg-green-900/20 border border-green-500/30 rounded-full px-6 py-2 mb-8">
+                <span className="text-green-400 text-sm font-medium">About Kaivalya Digitals</span>
+              </div>
+              
+              <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
+                <span className="shining-text shining-text-glow">Where Creativity</span>
+                <br />
+                <span className="text-green-300 shining-text-shimmer">Meets Impact</span>
+              </h2>
+              
+              <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
+                <p>
+                  Kaivalya Digitals Pvt. Ltd. is a full-service creative and digital agency 
+                  offering 360° solutions in production, marketing, branding, and technology. 
+                  We help brands, leaders, and institutions amplify their presence through 
+                  powerful stories, smart campaigns, and impactful digital experiences.
+                </p>
+                <p>
+                  Founded on the principles of innovation and excellence, we believe that 
+                  every brand has a unique story waiting to be told. Our team of creative 
+                  minds, strategic thinkers, and technical experts work together to transform 
+                  your vision into compelling digital narratives that resonate with your audience.
+                </p>
+              </div>
+              
+              <div className="mt-8">
+                <a 
+                  href="#services" 
+                  className="inline-flex items-center gap-2 bg-gradient-to-r from-green-500 to-blue-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:from-green-600 hover:to-blue-700 transition-all"
+                >
+                  Explore Our Services
+                  <span className="text-xl">→</span>
+                </a>
+              </div>
+            </div>
+            
+            {/* Right Side - Stats */}
+            <div className="relative">
+              <div className="bg-gradient-to-br from-green-500/20 to-blue-500/20 rounded-2xl p-8 border border-green-500/30">
+                <div className="grid grid-cols-2 gap-6">
+                  <div className="text-center">
+                    <div className="text-3xl font-bold text-green-400 mb-2">360°</div>
+                    <div className="text-sm text-gray-300">Solutions</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-3xl font-bold text-blue-400 mb-2">100+</div>
+                    <div className="text-sm text-gray-300">Projects</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-3xl font-bold text-purple-400 mb-2">50+</div>
+                    <div className="text-sm text-gray-300">Happy Clients</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-3xl font-bold text-yellow-400 mb-2">5+</div>
+                    <div className="text-sm text-gray-300">Years Experience</div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -2159,13 +2161,6 @@ export default function Home() {
               <div>
                 <h3 className="text-lg font-semibold text-white mb-4">Contact Info</h3>
                 <div className="space-y-2 text-sm text-gray-300">
-                  <div className="flex items-start space-x-2">
-                    <svg className="w-4 h-4 text-green-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                    </svg>
-                    <span>Plot No 33, Budh Vihar Colony,<br />Sai Data Road, Arjunganj, Lucknow</span>
-                  </div>
                   <div className="flex items-center space-x-2">
                     <svg className="w-4 h-4 text-green-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
