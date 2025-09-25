@@ -122,7 +122,7 @@ export default function Home() {
               href="#home" 
               className={`font-medium transition-colors ${
                 activeSection === 'home' 
-                  ? 'text-green-400' 
+                  ? 'text-pink-400' 
                   : 'text-white hover:text-white/80'
               }`}
             >
@@ -132,7 +132,7 @@ export default function Home() {
               href="#about" 
               className={`font-medium transition-colors ${
                 activeSection === 'about' 
-                  ? 'text-green-400' 
+                  ? 'text-pink-400' 
                   : 'text-white hover:text-white/80'
               }`}
             >
@@ -142,7 +142,7 @@ export default function Home() {
               href="#services" 
               className={`font-medium transition-colors ${
                 activeSection === 'services' 
-                  ? 'text-green-400' 
+                  ? 'text-pink-400' 
                   : 'text-white hover:text-white/80'
               }`}
             >
@@ -152,7 +152,7 @@ export default function Home() {
               href="#review" 
               className={`font-medium transition-colors ${
                 activeSection === 'review' 
-                  ? 'text-green-400' 
+                  ? 'text-pink-400' 
                   : 'text-white hover:text-white/80'
               }`}
             >
@@ -162,7 +162,7 @@ export default function Home() {
               href="#faqs" 
               className={`font-medium transition-colors ${
                 activeSection === 'faqs' 
-                  ? 'text-green-400' 
+                  ? 'text-pink-400' 
                   : 'text-white hover:text-white/80'
               }`}
             >
@@ -172,7 +172,7 @@ export default function Home() {
               href="#contact" 
               className={`font-medium transition-colors ${
                 activeSection === 'contact' 
-                  ? 'text-green-400' 
+                  ? 'text-pink-400' 
                   : 'text-white hover:text-white/80'
               }`}
             >
@@ -240,13 +240,13 @@ export default function Home() {
 
       {/* Hero */}
       <main id="home" className="relative mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 pt-24 sm:pt-20 lg:pt-24 pb-6 sm:pb-8 lg:pb-10 text-center">
-        <div className="inline-flex items-center gap-2 sm:gap-3 rounded-full border border-green-500/40 bg-green-400/10 px-4 sm:px-6 py-2 sm:py-3 text-xs sm:text-sm text-green-300 shadow-[0_0_30px_-10px_rgba(34,197,94,1)]">
+        <div className="inline-flex items-center gap-2 sm:gap-3 rounded-full border border-pink-500/40 bg-pink-400/10 px-4 sm:px-6 py-2 sm:py-3 text-xs sm:text-sm text-pink-300 shadow-[0_0_30px_-10px_rgba(236,72,153,1)]">
           ✨ The World&apos;s Best Vibe Marketing Platform
         </div>
         <h1 className="mt-3 sm:mt-4 text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold tracking-tight leading-tight">
           <span className="shining-text shining-text-glow">Where Creativity Meets Impact</span>
           <br />
-          <span className="text-green-300 shining-text-shimmer">Innovating Narratives | Empowering Brands | Redefining Digital</span>
+          <span className="text-pink-300 shining-text-shimmer">Innovating Narratives | Empowering Brands | Redefining Digital</span>
         </h1>
         <p className="mx-auto mt-2 sm:mt-3 max-w-xl sm:max-w-2xl text-sm sm:text-base lg:text-lg text-white/70 px-4">
           Innovating Narratives | Empowering Brands | Redefining Digital
@@ -266,8 +266,8 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Section Header */}
           <div className="text-center mb-8">
-            <div className="inline-block bg-green-900/20 border border-green-500/30 rounded-full px-6 py-2 mb-4">
-              <span className="text-green-400 text-sm font-medium">Our Services</span>
+            <div className="inline-block bg-pink-900/20 border border-pink-500/30 rounded-full px-6 py-2 mb-4">
+              <span className="text-pink-400 text-sm font-medium">Our Services</span>
             </div>
             
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-3">
@@ -370,28 +370,28 @@ export default function Home() {
             </div>
 
             {/* Digital Solutions */}
-            <div className="bg-gradient-to-br from-green-900/20 to-emerald-900/20 rounded-2xl p-8 border border-green-500/30 hover:border-green-400/50 transition-all">
+            <div className="bg-gradient-to-br from-pink-900/20 to-emerald-900/20 rounded-2xl p-8 border border-pink-500/30 hover:border-pink-400/50 transition-all">
               <div className="flex items-center mb-6">
-                <div className="w-16 h-16 bg-green-500/20 rounded-xl flex items-center justify-center mr-4">
+                <div className="w-16 h-16 bg-pink-500/20 rounded-xl flex items-center justify-center mr-4">
                   <span className="text-3xl">💻</span>
                 </div>
                 <h3 className="text-2xl font-bold text-white">Digital Solutions</h3>
               </div>
               <ul className="space-y-3 text-gray-300">
                 <li className="flex items-center">
-                  <span className="w-2 h-2 bg-green-400 rounded-full mr-3"></span>
+                  <span className="w-2 h-2 bg-pink-400 rounded-full mr-3"></span>
                   Websites
                 </li>
                 <li className="flex items-center">
-                  <span className="w-2 h-2 bg-green-400 rounded-full mr-3"></span>
+                  <span className="w-2 h-2 bg-pink-400 rounded-full mr-3"></span>
                   Mobile Apps
                 </li>
                 <li className="flex items-center">
-                  <span className="w-2 h-2 bg-green-400 rounded-full mr-3"></span>
+                  <span className="w-2 h-2 bg-pink-400 rounded-full mr-3"></span>
                   E-books
                 </li>
                 <li className="flex items-center">
-                  <span className="w-2 h-2 bg-green-400 rounded-full mr-3"></span>
+                  <span className="w-2 h-2 bg-pink-400 rounded-full mr-3"></span>
                   YouTube Channel Optimization
                 </li>
               </ul>
@@ -400,13 +400,13 @@ export default function Home() {
 
           {/* Process Section */}
           <div className="mb-8">
-            <h3 className="text-3xl font-bold text-center mb-6 text-green-400">
+            <h3 className="text-3xl font-bold text-center mb-6 text-pink-400">
               Our Process
             </h3>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center">
-                <div className="w-16 h-16 bg-green-500/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl font-bold text-green-400">1</span>
+                <div className="w-16 h-16 bg-pink-500/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl font-bold text-pink-400">1</span>
                 </div>
                 <h4 className="text-xl font-semibold mb-3">Discovery</h4>
                 <p className="text-gray-400">
@@ -444,14 +444,14 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             {/* Left Side - Content */}
             <div>
-              <div className="inline-block bg-green-900/20 border border-green-500/30 rounded-full px-6 py-2 mb-8">
-                <span className="text-green-400 text-sm font-medium">About Kaivalya Digitals</span>
+              <div className="inline-block bg-pink-900/20 border border-pink-500/30 rounded-full px-6 py-2 mb-8">
+                <span className="text-pink-400 text-sm font-medium">About Kaivalya Digitals</span>
               </div>
               
               <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
                 <span className="shining-text shining-text-glow">Where Creativity</span>
                 <br />
-                <span className="text-green-300 shining-text-shimmer">Meets Impact</span>
+                <span className="text-pink-300 shining-text-shimmer">Meets Impact</span>
               </h2>
               
               <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
@@ -472,7 +472,7 @@ export default function Home() {
               <div className="mt-8">
                 <a 
                   href="#services" 
-                  className="inline-flex items-center gap-2 bg-gradient-to-r from-green-500 to-blue-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:from-green-600 hover:to-blue-700 transition-all"
+                  className="inline-flex items-center gap-2 bg-gradient-to-r from-pink-500 to-blue-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:from-pink-600 hover:to-blue-700 transition-all"
                 >
                   Explore Our Services
                   <span className="text-xl">→</span>
@@ -482,10 +482,10 @@ export default function Home() {
             
             {/* Right Side - Stats */}
             <div className="relative">
-              <div className="bg-gradient-to-br from-green-500/20 to-blue-500/20 rounded-2xl p-8 border border-green-500/30">
+              <div className="bg-gradient-to-br from-pink-500/20 to-blue-500/20 rounded-2xl p-8 border border-pink-500/30">
                 <div className="grid grid-cols-2 gap-6">
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-green-400 mb-2">360°</div>
+                    <div className="text-3xl font-bold text-pink-400 mb-2">360°</div>
                     <div className="text-sm text-gray-300">Solutions</div>
                   </div>
                   <div className="text-center">
@@ -523,10 +523,10 @@ export default function Home() {
             </div>
 
             {/* Performance Widget */}
-            <div className="bg-green-900/20 p-4 rounded-lg border border-green-500/30">
-              <h3 className="text-green-400 font-semibold mb-2">Performance</h3>
-              <div className="text-3xl font-bold text-green-400">24.6%</div>
-              <div className="text-sm text-green-300">↑ +12.3%</div>
+            <div className="bg-pink-900/20 p-4 rounded-lg border border-pink-500/30">
+              <h3 className="text-pink-400 font-semibold mb-2">Performance</h3>
+              <div className="text-3xl font-bold text-pink-400">24.6%</div>
+              <div className="text-sm text-pink-300">↑ +12.3%</div>
             </div>
 
             {/* Gross Margin Widget */}
@@ -540,24 +540,24 @@ export default function Home() {
             </div>
 
             {/* Spend Widget */}
-            <div className="bg-green-900/20 p-4 rounded-lg border border-green-500/30">
-              <h3 className="text-green-400 font-semibold mb-2">Spend</h3>
-              <div className="text-sm text-green-300">$12,450</div>
-              <div className="text-sm text-green-300">$8,230</div>
+            <div className="bg-pink-900/20 p-4 rounded-lg border border-pink-500/30">
+              <h3 className="text-pink-400 font-semibold mb-2">Spend</h3>
+              <div className="text-sm text-pink-300">$12,450</div>
+              <div className="text-sm text-pink-300">$8,230</div>
             </div>
 
             {/* Team Spends */}
-            <div className="bg-green-900/20 p-4 rounded-lg border border-green-500/30">
-              <h3 className="text-green-400 font-semibold mb-2">Team Spends</h3>
-              <div className="text-sm text-green-300">$8,230</div>
-              <div className="text-sm text-green-300">$5,120</div>
+            <div className="bg-pink-900/20 p-4 rounded-lg border border-pink-500/30">
+              <h3 className="text-pink-400 font-semibold mb-2">Team Spends</h3>
+              <div className="text-sm text-pink-300">$8,230</div>
+              <div className="text-sm text-pink-300">$5,120</div>
             </div>
 
             {/* Traffic Source */}
-            <div className="bg-green-900/20 p-4 rounded-lg border border-green-500/30">
-              <h3 className="text-green-400 font-semibold mb-2">Traffic Source</h3>
-              <div className="text-sm text-green-300">Facebook: 68%</div>
-              <div className="text-sm text-green-300">Google: 22%</div>
+            <div className="bg-pink-900/20 p-4 rounded-lg border border-pink-500/30">
+              <h3 className="text-pink-400 font-semibold mb-2">Traffic Source</h3>
+              <div className="text-sm text-pink-300">Facebook: 68%</div>
+              <div className="text-sm text-pink-300">Google: 22%</div>
             </div>
 
             {/* Yesterday's Campaign Insights */}
@@ -577,17 +577,17 @@ export default function Home() {
             </div>
 
             {/* Peak Day */}
-            <div className="bg-green-900/20 p-4 rounded-lg border border-green-500/30">
-              <h3 className="text-green-400 font-semibold mb-2">Peak Day</h3>
-              <div className="text-sm text-green-300">Wednesday</div>
-              <div className="text-sm text-green-300">+15.3%</div>
+            <div className="bg-pink-900/20 p-4 rounded-lg border border-pink-500/30">
+              <h3 className="text-pink-400 font-semibold mb-2">Peak Day</h3>
+              <div className="text-sm text-pink-300">Wednesday</div>
+              <div className="text-sm text-pink-300">+15.3%</div>
             </div>
           </div>
         </div>
 
         {/* Campaign Clarity Modal */}
         <div className="relative z-20 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-[#1a1a1a]/90 backdrop-blur-sm border-2 border-green-400/50 rounded-2xl p-4 sm:p-6 lg:p-8 shadow-2xl shadow-[0_0_40px_rgba(34,197,94,0.2)]">
+          <div className="bg-[#1a1a1a]/90 backdrop-blur-sm border-2 border-pink-400/50 rounded-2xl p-4 sm:p-6 lg:p-8 shadow-2xl shadow-[0_0_40px_rgba(236,72,153,0.2)]">
             {/* Modal Header */}
             <div className="text-center mb-8 sm:mb-10 lg:mb-12">
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-3 sm:mb-4">
@@ -601,13 +601,13 @@ export default function Home() {
             {/* Feature Grid */}
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4 lg:gap-6">
               {/* Top Row */}
-              <div className="bg-green-600/20 border-2 border-green-400 rounded-xl p-3 sm:p-4 lg:p-3 sm:p-4 lg:p-6 text-center hover:bg-green-600/30 transition-all cursor-pointer shadow-[0_0_20px_rgba(34,197,94,0.3)] hover:shadow-[0_0_30px_rgba(34,197,94,0.5)]">
-                <div className="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 bg-green-500/20 rounded-lg flex items-center justify-center mx-auto mb-2 sm:mb-3 lg:mb-2 sm:mb-3 lg:mb-4 border border-green-400/30">
+              <div className="bg-pink-600/20 border-2 border-pink-400 rounded-xl p-3 sm:p-4 lg:p-3 sm:p-4 lg:p-6 text-center hover:bg-pink-600/30 transition-all cursor-pointer shadow-[0_0_20px_rgba(236,72,153,0.3)] hover:shadow-[0_0_30px_rgba(236,72,153,0.5)]">
+                <div className="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 bg-pink-500/20 rounded-lg flex items-center justify-center mx-auto mb-2 sm:mb-3 lg:mb-2 sm:mb-3 lg:mb-4 border border-pink-400/30">
                   <svg className="w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z"/>
                   </svg>
                 </div>
-                <h3 className="text-green-400 font-semibold text-sm sm:text-base">Spends</h3>
+                <h3 className="text-pink-400 font-semibold text-sm sm:text-base">Spends</h3>
               </div>
 
               <div className="bg-gray-700/20 border-2 border-gray-400 rounded-xl p-3 sm:p-4 lg:p-3 sm:p-4 lg:p-6 text-center hover:bg-gray-600/30 transition-all cursor-pointer shadow-[0_0_20px_rgba(156,163,175,0.3)] hover:shadow-[0_0_30px_rgba(156,163,175,0.5)]">
@@ -677,13 +677,13 @@ export default function Home() {
                 <h3 className="text-gray-400 font-semibold text-sm sm:text-base">Gross Margin</h3>
               </div>
 
-              <div className="bg-green-600/20 border-2 border-green-400 rounded-xl p-3 sm:p-4 lg:p-6 text-center hover:bg-green-600/30 transition-all cursor-pointer shadow-[0_0_20px_rgba(34,197,94,0.3)] hover:shadow-[0_0_30px_rgba(34,197,94,0.5)]">
-                <div className="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 bg-green-500/20 rounded-lg flex items-center justify-center mx-auto mb-2 sm:mb-3 lg:mb-4 border border-green-400/30">
+              <div className="bg-pink-600/20 border-2 border-pink-400 rounded-xl p-3 sm:p-4 lg:p-6 text-center hover:bg-pink-600/30 transition-all cursor-pointer shadow-[0_0_20px_rgba(236,72,153,0.3)] hover:shadow-[0_0_30px_rgba(236,72,153,0.5)]">
+                <div className="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 bg-pink-500/20 rounded-lg flex items-center justify-center mx-auto mb-2 sm:mb-3 lg:mb-4 border border-pink-400/30">
                   <svg className="w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M4 4a2 2 0 00-2 2v1h16V6a2 2 0 00-2-2H4zM18 9H2v5a2 2 0 002 2h12a2 2 0 002-2V9zM4 13a1 1 0 011-1h1a1 1 0 110 2H5a1 1 0 01-1-1zm5-1a1 1 0 100 2h1a1 1 0 100-2H9z"/>
                   </svg>
                 </div>
-                <h3 className="text-green-400 font-semibold text-sm sm:text-base">Team Spend</h3>
+                <h3 className="text-pink-400 font-semibold text-sm sm:text-base">Team Spend</h3>
               </div>
             </div>
           </div>
@@ -695,7 +695,7 @@ export default function Home() {
         {/* Continuous Running Background */}
         <div className="absolute inset-0 overflow-hidden">
           {/* Animated Gradient Background */}
-          <div className="absolute inset-0 bg-gradient-to-br from-green-500/5 via-blue-500/8 to-purple-500/5 animate-gradient-shift"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-pink-500/5 via-blue-500/8 to-purple-500/5 animate-gradient-shift"></div>
           
           {/* Moving Light Particles */}
           <div className="absolute inset-0">
@@ -748,7 +748,7 @@ export default function Home() {
 
         {/* Header */}
         <div className="relative z-10 text-center mb-12 sm:mb-16 lg:mb-20 px-4">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold bg-gradient-to-r from-green-400 via-blue-400 to-purple-400 bg-clip-text text-transparent animate-pulse">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold bg-gradient-to-r from-pink-400 via-blue-400 to-purple-400 bg-clip-text text-transparent animate-pulse">
             Marketing Transformation
           </h2>
           <p className="mt-4 sm:mt-6 lg:mt-8 text-lg sm:text-xl lg:text-2xl text-white/70 max-w-4xl mx-auto px-4">
@@ -799,7 +799,7 @@ export default function Home() {
                   </div>
                   
                   {/* Google Sheets - Middle Left */}
-                  <div className="absolute top-20 sm:top-28 lg:top-32 left-6 sm:left-8 lg:left-12 w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20 bg-green-500 rounded-xl sm:rounded-2xl flex items-center justify-center animate-bounce shadow-lg" style={{animationDelay: '0.2s'}}>
+                  <div className="absolute top-20 sm:top-28 lg:top-32 left-6 sm:left-8 lg:left-12 w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20 bg-pink-500 rounded-xl sm:rounded-2xl flex items-center justify-center animate-bounce shadow-lg" style={{animationDelay: '0.2s'}}>
                     <div className="text-white font-bold text-xs sm:text-sm">Sheets</div>
                   </div>
                   
@@ -825,7 +825,7 @@ export default function Home() {
                   </div>
                   
                   {/* Google Ads - Middle Right */}
-                  <div className="absolute top-32 right-6 sm:right-2 sm:right-3 lg:right-4 lg:right-12 w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20 bg-gradient-to-br from-blue-500 via-green-500 to-yellow-500 rounded-xl sm:rounded-2xl flex items-center justify-center animate-bounce shadow-lg" style={{animationDelay: '0.7s'}}>
+                  <div className="absolute top-32 right-6 sm:right-2 sm:right-3 lg:right-4 lg:right-12 w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20 bg-gradient-to-br from-blue-500 via-pink-500 to-yellow-500 rounded-xl sm:rounded-2xl flex items-center justify-center animate-bounce shadow-lg" style={{animationDelay: '0.7s'}}>
                     <div className="text-white font-bold text-xs sm:text-sm">Ads</div>
                   </div>
                   
@@ -836,7 +836,7 @@ export default function Home() {
                   </div>
                   
                   {/* Shopify - Middle Far Right */}
-                  <div className="absolute top-40 right-2 sm:right-3 lg:right-4 w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20 bg-green-600 rounded-xl sm:rounded-2xl flex items-center justify-center animate-bounce shadow-lg" style={{animationDelay: '0.9s'}}>
+                  <div className="absolute top-40 right-2 sm:right-3 lg:right-4 w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20 bg-pink-600 rounded-xl sm:rounded-2xl flex items-center justify-center animate-bounce shadow-lg" style={{animationDelay: '0.9s'}}>
                     <div className="text-white font-bold text-xs sm:text-sm">Shopify</div>
                   </div>
                   
@@ -892,26 +892,26 @@ export default function Home() {
 
             {/* Right Panel: Successful Integrated Solution */}
             <div className="group relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-green-500/20 to-blue-500/20 rounded-2xl sm:rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
-              <div className="relative bg-[#1a1a1a]/90 backdrop-blur-sm border-2 border-green-400/50 rounded-2xl sm:rounded-3xl p-4 sm:p-6 lg:p-8 xl:p-12 h-[500px] sm:h-[600px] lg:h-[700px] overflow-hidden shadow-2xl shadow-green-500/20">
+              <div className="absolute inset-0 bg-gradient-to-r from-pink-500/20 to-blue-500/20 rounded-2xl sm:rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
+              <div className="relative bg-[#1a1a1a]/90 backdrop-blur-sm border-2 border-pink-400/50 rounded-2xl sm:rounded-3xl p-4 sm:p-6 lg:p-8 xl:p-12 h-[500px] sm:h-[600px] lg:h-[700px] overflow-hidden shadow-2xl shadow-pink-500/20">
                 {/* Glowing Border Effect */}
-                <div className="absolute inset-0 rounded-2xl sm:rounded-3xl bg-gradient-to-r from-green-500/20 via-blue-500/20 to-purple-500/20 blur-sm"></div>
+                <div className="absolute inset-0 rounded-2xl sm:rounded-3xl bg-gradient-to-r from-pink-500/20 via-blue-500/20 to-purple-500/20 blur-sm"></div>
                 <div className="absolute inset-1 rounded-2xl sm:rounded-3xl bg-[#1a1a1a]/90 backdrop-blur-sm"></div>
                 
                 {/* Panel Header */}
                 <div className="relative z-10 text-center mb-4 sm:mb-6 lg:mb-8">
                   <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-2 sm:mb-3 lg:mb-4">Your new way to build successful campaigns.</h3>
                   <p className="text-white/70 text-sm sm:text-base lg:text-lg xl:text-xl mb-3 sm:mb-4 lg:mb-6">One Platform, One Team, Zero Chaos, 10X ROI.</p>
-                  <a href="https://wa.me/918299759969?text=Hello%2C%20I%20want%20Information%20About%20Kaivalya%20Digitals%20Services" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-purple-500 via-blue-500 to-green-500 hover:from-purple-600 hover:via-blue-600 hover:to-green-600 text-white px-6 sm:px-8 lg:px-12 py-2 sm:py-3 lg:py-4 rounded-full font-medium text-sm sm:text-base lg:text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
+                  <a href="https://wa.me/918299759969?text=Hello%2C%20I%20want%20Information%20About%20Kaivalya%20Digitals%20Services" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-purple-500 via-blue-500 to-pink-500 hover:from-purple-600 hover:via-blue-600 hover:to-pink-600 text-white px-6 sm:px-8 lg:px-12 py-2 sm:py-3 lg:py-4 rounded-full font-medium text-sm sm:text-base lg:text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
                     Get Quote
                   </a>
                 </div>
                 
                 {/* Central Platform Logo */}
                 <div className="relative z-10 flex justify-center mb-4 sm:mb-6 lg:mb-8">
-                  <div className="w-16 h-16 sm:w-20 sm:h-20 lg:w-28 lg:h-28 bg-gradient-to-br from-purple-500 to-green-500 rounded-2xl sm:rounded-3xl flex items-center justify-center shadow-2xl shadow-green-400/25 animate-pulse">
+                  <div className="w-16 h-16 sm:w-20 sm:h-20 lg:w-28 lg:h-28 bg-gradient-to-br from-purple-500 to-pink-500 rounded-2xl sm:rounded-3xl flex items-center justify-center shadow-2xl shadow-pink-400/25 animate-pulse">
                     <div className="text-white font-bold text-2xl sm:text-3xl lg:text-5xl">V</div>
-                    <div className="absolute -bottom-1 -right-1 w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6 bg-green-500 rounded-full flex items-center justify-center">
+                    <div className="absolute -bottom-1 -right-1 w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6 bg-pink-500 rounded-full flex items-center justify-center">
                       <div className="text-white text-xs sm:text-sm">✓</div>
                     </div>
                   </div>
@@ -920,13 +920,13 @@ export default function Home() {
                 {/* Feature Icons */}
                 <div className="relative z-10 grid grid-cols-2 gap-2 sm:gap-3 lg:gap-4 mb-4 sm:mb-6 lg:mb-8">
                   {/* Campaign Intelligence */}
-                  <div className="bg-green-600/20 border-2 border-green-400/40 rounded-xl sm:rounded-2xl p-2 sm:p-3 lg:p-4 text-center hover:bg-green-600/30 transition-all cursor-pointer shadow-lg shadow-green-400/20">
-                    <div className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 bg-green-500/20 rounded-lg sm:rounded-xl flex items-center justify-center mx-auto mb-2 sm:mb-3 border border-green-400/40">
-                      <svg className="w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="bg-pink-600/20 border-2 border-pink-400/40 rounded-xl sm:rounded-2xl p-2 sm:p-3 lg:p-4 text-center hover:bg-pink-600/30 transition-all cursor-pointer shadow-lg shadow-pink-400/20">
+                    <div className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 bg-pink-500/20 rounded-lg sm:rounded-xl flex items-center justify-center mx-auto mb-2 sm:mb-3 border border-pink-400/40">
+                      <svg className="w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6 text-pink-400" fill="currentColor" viewBox="0 0 20 20">
                         <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                       </svg>
                     </div>
-                    <h4 className="text-green-400 font-semibold text-xs sm:text-sm">Campaign Intelligence</h4>
+                    <h4 className="text-pink-400 font-semibold text-xs sm:text-sm">Campaign Intelligence</h4>
                   </div>
                   
                   {/* Creative AI Engine */}
@@ -950,13 +950,13 @@ export default function Home() {
                   </div>
                   
                   {/* Performance Insights */}
-                  <div className="bg-green-600/20 border-2 border-green-400/40 rounded-xl sm:rounded-2xl p-2 sm:p-3 lg:p-4 text-center hover:bg-green-600/30 transition-all cursor-pointer shadow-lg shadow-green-400/20">
-                    <div className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 bg-green-500/20 rounded-lg sm:rounded-xl flex items-center justify-center mx-auto mb-2 sm:mb-3 border border-green-400/40">
-                      <svg className="w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="bg-pink-600/20 border-2 border-pink-400/40 rounded-xl sm:rounded-2xl p-2 sm:p-3 lg:p-4 text-center hover:bg-pink-600/30 transition-all cursor-pointer shadow-lg shadow-pink-400/20">
+                    <div className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 bg-pink-500/20 rounded-lg sm:rounded-xl flex items-center justify-center mx-auto mb-2 sm:mb-3 border border-pink-400/40">
+                      <svg className="w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6 text-pink-400" fill="currentColor" viewBox="0 0 20 20">
                         <path d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z"/>
                       </svg>
                     </div>
-                    <h4 className="text-green-400 font-semibold text-xs sm:text-sm">Performance Insights</h4>
+                    <h4 className="text-pink-400 font-semibold text-xs sm:text-sm">Performance Insights</h4>
                   </div>
                 </div>
                 
@@ -973,7 +973,7 @@ export default function Home() {
                   </div>
                   
                   {/* Google Ads - Middle Top Left */}
-                  <div className="absolute top-12 sm:top-14 lg:top-16 left-4 sm:left-6 lg:left-8 w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8 bg-gradient-to-br from-blue-500/30 via-green-500/30 to-yellow-500/30 rounded-md sm:rounded-lg flex items-center justify-center opacity-60 blur-sm">
+                  <div className="absolute top-12 sm:top-14 lg:top-16 left-4 sm:left-6 lg:left-8 w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8 bg-gradient-to-br from-blue-500/30 via-pink-500/30 to-yellow-500/30 rounded-md sm:rounded-lg flex items-center justify-center opacity-60 blur-sm">
                     <div className="text-white text-xs font-bold">Ads</div>
                   </div>
                   
@@ -983,7 +983,7 @@ export default function Home() {
                   </div>
                   
                   {/* Shopify - Middle Right */}
-                  <div className="absolute top-24 sm:top-28 lg:top-32 right-2 sm:right-3 lg:right-4 w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8 bg-green-600/30 rounded-md sm:rounded-lg flex items-center justify-center opacity-60 blur-sm">
+                  <div className="absolute top-24 sm:top-28 lg:top-32 right-2 sm:right-3 lg:right-4 w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8 bg-pink-600/30 rounded-md sm:rounded-lg flex items-center justify-center opacity-60 blur-sm">
                     <div className="text-white text-xs font-bold">Shopify</div>
                   </div>
                   
@@ -998,7 +998,7 @@ export default function Home() {
                   </div>
                   
                   {/* Google Ads - Bottom Middle Left */}
-                  <div className="absolute bottom-12 sm:bottom-14 lg:bottom-16 left-16 sm:left-18 lg:left-20 w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8 bg-gradient-to-br from-blue-500/30 via-green-500/30 to-yellow-500/30 rounded-md sm:rounded-lg flex items-center justify-center opacity-60 blur-sm">
+                  <div className="absolute bottom-12 sm:bottom-14 lg:bottom-16 left-16 sm:left-18 lg:left-20 w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8 bg-gradient-to-br from-blue-500/30 via-pink-500/30 to-yellow-500/30 rounded-md sm:rounded-lg flex items-center justify-center opacity-60 blur-sm">
                     <div className="text-white text-xs font-bold">Ads</div>
                   </div>
                   
@@ -1023,7 +1023,7 @@ export default function Home() {
         href="https://wa.me/918299759969?text=Hello%2C%20I%20want%20Information%20About%20Kaivalya%20Digitals%20Services"
         target="_blank" 
         rel="noopener noreferrer" 
-        className="fixed bottom-6 right-6 z-30 w-14 h-14 bg-green-500 rounded-full flex items-center justify-center shadow-lg hover:bg-green-600 transition-colors"
+        className="fixed bottom-6 right-6 z-30 w-14 h-14 bg-pink-500 rounded-full flex items-center justify-center shadow-lg hover:bg-pink-600 transition-colors"
       >
         <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
           <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
@@ -1091,7 +1091,7 @@ export default function Home() {
                   <div className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 relative">
                     <div className="absolute inset-0 bg-gradient-to-br from-teal-400 to-purple-500 transform rotate-45 rounded-sm"></div>
                     <div className="absolute inset-1 bg-gradient-to-br from-teal-300 to-blue-400 transform rotate-45 rounded-sm"></div>
-                    <div className="absolute inset-2 bg-gradient-to-br from-green-400 to-teal-400 transform rotate-45 rounded-sm"></div>
+                    <div className="absolute inset-2 bg-gradient-to-br from-pink-400 to-teal-400 transform rotate-45 rounded-sm"></div>
                   </div>
                   <span className="text-white text-lg sm:text-xl lg:text-2xl font-medium">ClickFlare</span>
                 </div>
@@ -1156,7 +1156,7 @@ export default function Home() {
                   <div className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 relative">
                     <div className="absolute inset-0 bg-gradient-to-br from-teal-400 to-purple-500 transform rotate-45 rounded-sm"></div>
                     <div className="absolute inset-1 bg-gradient-to-br from-teal-300 to-blue-400 transform rotate-45 rounded-sm"></div>
-                    <div className="absolute inset-2 bg-gradient-to-br from-green-400 to-teal-400 transform rotate-45 rounded-sm"></div>
+                    <div className="absolute inset-2 bg-gradient-to-br from-pink-400 to-teal-400 transform rotate-45 rounded-sm"></div>
                   </div>
                   <span className="text-white text-lg sm:text-xl lg:text-2xl font-medium">ClickFlare</span>
                 </div>
@@ -1202,7 +1202,7 @@ export default function Home() {
           <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-4 sm:mb-6">
             Smarter <span className="text-purple-400">Campaigns.</span>
             <br />
-            Ridiculously Better <span className="text-green-400">Outcomes.</span>
+            Ridiculously Better <span className="text-pink-400">Outcomes.</span>
           </h2>
           <p className="text-white/70 text-lg sm:text-xl lg:text-2xl max-w-3xl mx-auto">
             Every insight, every decision — optimized to scale.
@@ -1213,8 +1213,8 @@ export default function Home() {
         <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {/* +80% Box */}
-            <div className="bg-gradient-to-br from-green-900/30 to-green-800/20 border-2 border-green-400/50 rounded-2xl p-6 sm:p-8 text-center hover:border-green-400/80 transition-all duration-300">
-              <div className="text-4xl sm:text-5xl lg:text-6xl font-bold text-green-400 mb-3 sm:mb-4" id="stat1">
+            <div className="bg-gradient-to-br from-pink-900/30 to-pink-800/20 border-2 border-pink-400/50 rounded-2xl p-6 sm:p-8 text-center hover:border-pink-400/80 transition-all duration-300">
+              <div className="text-4xl sm:text-5xl lg:text-6xl font-bold text-pink-400 mb-3 sm:mb-4" id="stat1">
                 0%
               </div>
               <p className="text-white/80 text-sm sm:text-base lg:text-lg">
@@ -1253,8 +1253,8 @@ export default function Home() {
             </div>
 
             {/* 100+ Box */}
-            <div className="bg-gradient-to-br from-green-900/30 to-emerald-900/20 border-2 border-green-400/50 rounded-2xl p-6 sm:p-8 text-center hover:border-green-400/80 transition-all duration-300">
-              <div className="text-4xl sm:text-5xl lg:text-6xl font-bold text-green-400 mb-3 sm:mb-4" id="stat5">
+            <div className="bg-gradient-to-br from-pink-900/30 to-emerald-900/20 border-2 border-pink-400/50 rounded-2xl p-6 sm:p-8 text-center hover:border-pink-400/80 transition-all duration-300">
+              <div className="text-4xl sm:text-5xl lg:text-6xl font-bold text-pink-400 mb-3 sm:mb-4" id="stat5">
                 0+
               </div>
               <p className="text-white/80 text-sm sm:text-base lg:text-lg">
@@ -1288,7 +1288,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 sm:gap-12 lg:gap-16 mb-12 sm:mb-16 lg:mb-20">
             {/* Step 1 */}
             <div className="text-center">
-              <div className="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
+              <div className="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 bg-pink-500 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
                 <span className="text-white font-bold text-2xl sm:text-3xl lg:text-4xl">1</span>
               </div>
               <h3 className="text-white text-xl sm:text-2xl lg:text-3xl font-semibold mb-2 sm:mb-3">
@@ -1301,7 +1301,7 @@ export default function Home() {
 
             {/* Step 2 */}
             <div className="text-center">
-              <div className="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
+              <div className="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 bg-pink-500 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
                 <span className="text-white font-bold text-2xl sm:text-3xl lg:text-4xl">2</span>
               </div>
               <h3 className="text-white text-xl sm:text-2xl lg:text-3xl font-semibold mb-2 sm:mb-3">
@@ -1314,7 +1314,7 @@ export default function Home() {
 
             {/* Step 3 */}
             <div className="text-center">
-              <div className="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
+              <div className="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 bg-pink-500 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
                 <span className="text-white font-bold text-2xl sm:text-3xl lg:text-4xl">3</span>
               </div>
               <h3 className="text-white text-xl sm:text-2xl lg:text-3xl font-semibold mb-2 sm:mb-3">
@@ -1328,7 +1328,7 @@ export default function Home() {
 
           {/* CTA Button */}
           <div className="text-center">
-            <button className="bg-gradient-to-r from-purple-500 to-green-500 hover:from-purple-600 hover:to-green-600 text-white px-8 sm:px-12 py-3 sm:py-4 rounded-full font-medium text-lg sm:text-xl lg:text-2xl transition-all duration-300 transform hover:scale-105 shadow-xl">
+            <button className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-8 sm:px-12 py-3 sm:py-4 rounded-full font-medium text-lg sm:text-xl lg:text-2xl transition-all duration-300 transform hover:scale-105 shadow-xl">
               Vibe, Don&apos;t Guess
             </button>
           </div>
@@ -1338,7 +1338,7 @@ export default function Home() {
         <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-16 sm:mt-20 lg:mt-24">
           <div className="text-center mb-8 sm:mb-12">
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-6">
-              Features That <span className="text-green-400">Actually Matter</span>
+              Features That <span className="text-pink-400">Actually Matter</span>
             </h2>
             <p className="text-white/70 text-lg sm:text-xl lg:text-2xl">
               Everything you need to optimize campaign performance
@@ -1347,16 +1347,16 @@ export default function Home() {
 
           {/* Feature Buttons */}
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
-            <button className="bg-green-900/30 border-2 border-green-400/50 rounded-xl p-4 sm:p-6 text-center hover:border-green-400/80 transition-all duration-300">
-              <span className="text-green-400 font-semibold text-sm sm:text-base lg:text-lg">Spend Insights</span>
+            <button className="bg-pink-900/30 border-2 border-pink-400/50 rounded-xl p-4 sm:p-6 text-center hover:border-pink-400/80 transition-all duration-300">
+              <span className="text-pink-400 font-semibold text-sm sm:text-base lg:text-lg">Spend Insights</span>
             </button>
             
             <button className="bg-gray-800/30 border-2 border-gray-400/50 rounded-xl p-4 sm:p-6 text-center hover:border-gray-400/80 transition-all duration-300">
               <span className="text-gray-400 font-semibold text-sm sm:text-base lg:text-lg">ROI Tracking</span>
             </button>
             
-            <button className="bg-green-900/30 border-2 border-green-400/50 rounded-xl p-4 sm:p-6 text-center hover:border-green-400/80 transition-all duration-300">
-              <span className="text-green-400 font-semibold text-sm sm:text-base lg:text-lg">Smart Alerts</span>
+            <button className="bg-pink-900/30 border-2 border-pink-400/50 rounded-xl p-4 sm:p-6 text-center hover:border-pink-400/80 transition-all duration-300">
+              <span className="text-pink-400 font-semibold text-sm sm:text-base lg:text-lg">Smart Alerts</span>
             </button>
             
             <button className="bg-gray-800/30 border-2 border-gray-400/50 rounded-xl p-4 sm:p-6 text-center hover:border-gray-400/80 transition-all duration-300">
@@ -1373,7 +1373,7 @@ export default function Home() {
             {/* Left Side - Main Content */}
             <div className="space-y-8">
               <div className="flex items-center space-x-3">
-                <div className="w-8 h-8 bg-gradient-to-r from-green-400 to-blue-500 rounded-lg flex items-center justify-center">
+                <div className="w-8 h-8 bg-gradient-to-r from-pink-400 to-blue-500 rounded-lg flex items-center justify-center">
                   <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z" />
                   </svg>
@@ -1388,8 +1388,8 @@ export default function Home() {
               {/* Feature Icons */}
               <div className="flex flex-wrap gap-6">
                 <div className="flex flex-col items-center space-y-2">
-                  <div className="w-12 h-12 border-2 border-green-400 rounded-lg flex items-center justify-center">
-                    <svg className="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <div className="w-12 h-12 border-2 border-pink-400 rounded-lg flex items-center justify-center">
+                    <svg className="w-6 h-6 text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
                     </svg>
                   </div>
@@ -1397,8 +1397,8 @@ export default function Home() {
                 </div>
                 
                 <div className="flex flex-col items-center space-y-2">
-                  <div className="w-12 h-12 border-2 border-green-400 rounded-lg flex items-center justify-center">
-                    <svg className="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <div className="w-12 h-12 border-2 border-pink-400 rounded-lg flex items-center justify-center">
+                    <svg className="w-6 h-6 text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                     </svg>
                   </div>
@@ -1406,8 +1406,8 @@ export default function Home() {
                 </div>
                 
                 <div className="flex flex-col items-center space-y-2">
-                  <div className="w-12 h-12 border-2 border-green-400 rounded-lg flex items-center justify-center">
-                    <svg className="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <div className="w-12 h-12 border-2 border-pink-400 rounded-lg flex items-center justify-center">
+                    <svg className="w-6 h-6 text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
                     </svg>
                   </div>
@@ -1435,15 +1435,15 @@ export default function Home() {
                 
                 <ul className="space-y-3 text-gray-300 text-sm">
                   <li className="flex items-start space-x-2">
-                    <div className="w-1.5 h-1.5 bg-green-400 rounded-full mt-2 flex-shrink-0"></div>
+                    <div className="w-1.5 h-1.5 bg-pink-400 rounded-full mt-2 flex-shrink-0"></div>
                     <span>Today&apos;s spend is approximately $1,788, showing a 100.6% increase, indicating a significant rise in marketing investment.</span>
                   </li>
                   <li className="flex items-start space-x-2">
-                    <div className="w-1.5 h-1.5 bg-green-400 rounded-full mt-2 flex-shrink-0"></div>
+                    <div className="w-1.5 h-1.5 bg-pink-400 rounded-full mt-2 flex-shrink-0"></div>
                     <span>The overall profit trend suggests positive ROI, but specific ROI details are needed for deeper insights.</span>
                   </li>
                   <li className="flex items-start space-x-2">
-                    <div className="w-1.5 h-1.5 bg-green-400 rounded-full mt-2 flex-shrink-0"></div>
+                    <div className="w-1.5 h-1.5 bg-pink-400 rounded-full mt-2 flex-shrink-0"></div>
                     <span>Monitoring clicks, impressions, and conversions will help assess campaign efficiency and optimize performance.</span>
                   </li>
                 </ul>
@@ -1475,20 +1475,20 @@ export default function Home() {
                 </div>
                 
                 {/* Chart Area */}
-                <div className="h-32 bg-gradient-to-r from-green-500/20 to-blue-500/20 rounded-lg mb-4 flex items-end justify-center">
+                <div className="h-32 bg-gradient-to-r from-pink-500/20 to-blue-500/20 rounded-lg mb-4 flex items-end justify-center">
                   <div className="w-full h-full flex items-end justify-center space-x-1 p-4">
-                    <div className="w-2 bg-green-400 h-8 rounded-t"></div>
-                    <div className="w-2 bg-green-400 h-12 rounded-t"></div>
-                    <div className="w-2 bg-green-400 h-16 rounded-t"></div>
-                    <div className="w-2 bg-green-400 h-20 rounded-t"></div>
-                    <div className="w-2 bg-green-400 h-24 rounded-t"></div>
-                    <div className="w-2 bg-green-400 h-28 rounded-t"></div>
-                    <div className="w-2 bg-green-400 h-32 rounded-t"></div>
+                    <div className="w-2 bg-pink-400 h-8 rounded-t"></div>
+                    <div className="w-2 bg-pink-400 h-12 rounded-t"></div>
+                    <div className="w-2 bg-pink-400 h-16 rounded-t"></div>
+                    <div className="w-2 bg-pink-400 h-20 rounded-t"></div>
+                    <div className="w-2 bg-pink-400 h-24 rounded-t"></div>
+                    <div className="w-2 bg-pink-400 h-28 rounded-t"></div>
+                    <div className="w-2 bg-pink-400 h-32 rounded-t"></div>
                   </div>
                 </div>
                 
                 <div className="text-center">
-                  <div className="text-green-400 text-lg font-semibold mb-1">↑ +100.6%</div>
+                  <div className="text-pink-400 text-lg font-semibold mb-1">↑ +100.6%</div>
                   <div className="text-3xl font-bold text-white">$1,787.97</div>
                 </div>
               </div>
@@ -1509,7 +1509,7 @@ export default function Home() {
           <div className="grid lg:grid-cols-3 gap-8 lg:gap-12">
             {/* Panel 01: Campaign Management */}
             <div className="relative group">
-              <div className="absolute inset-0 bg-gradient-to-r from-green-500/20 to-blue-500/20 rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-pink-500/20 to-blue-500/20 rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
               <div className="relative bg-[#1a1a1a] rounded-3xl p-8 border border-gray-800 h-full">
                 <div className="text-6xl font-bold text-gray-600 mb-4">01</div>
                 <h3 className="text-2xl sm:text-3xl font-bold text-white mb-6">Campaign Management</h3>
@@ -1518,30 +1518,30 @@ export default function Home() {
                 <div className="bg-[#0a0a0a] rounded-2xl p-6 mb-6 border border-gray-700 h-80">
                   <div className="flex items-center justify-between mb-4">
                     <div className="flex items-center space-x-2">
-                      <div className="w-6 h-6 bg-gradient-to-r from-green-400 to-blue-500 rounded"></div>
+                      <div className="w-6 h-6 bg-gradient-to-r from-pink-400 to-blue-500 rounded"></div>
                       <span className="text-white font-semibold">Vibe</span>
                     </div>
                     <div className="flex space-x-2">
                       <div className="w-3 h-3 bg-red-500 rounded-full"></div>
                       <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
-                      <div className="w-3 h-3 bg-green-500 rounded-full"></div>
+                      <div className="w-3 h-3 bg-pink-500 rounded-full"></div>
                     </div>
                   </div>
                   
                   <div className="grid grid-cols-3 gap-4 mb-4">
                     <div className="bg-[#1a1a1a] rounded-lg p-3 text-center">
-                      <div className="text-green-400 text-sm">Revenue</div>
+                      <div className="text-pink-400 text-sm">Revenue</div>
                       <div className="text-white font-bold">$3,168.88</div>
                     </div>
                     <div className="bg-[#1a1a1a] rounded-lg p-3 text-center">
-                      <div className="text-green-400 text-sm">ROI</div>
+                      <div className="text-pink-400 text-sm">ROI</div>
                       <div className="text-white font-bold flex items-center justify-center">
-                        <span className="text-green-400 mr-1">↑</span>
+                        <span className="text-pink-400 mr-1">↑</span>
                         24.6%
                       </div>
                     </div>
                     <div className="bg-[#1a1a1a] rounded-lg p-3 text-center">
-                      <div className="text-green-400 text-sm">Clicks</div>
+                      <div className="text-pink-400 text-sm">Clicks</div>
                       <div className="text-white font-bold">3,232</div>
                     </div>
                   </div>
@@ -1682,7 +1682,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Badge */}
           <div className="text-center mb-8">
-            <div className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-green-500/20 to-blue-500/20 border border-green-500/30 rounded-full">
+            <div className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-pink-500/20 to-blue-500/20 border border-pink-500/30 rounded-full">
               <span className="text-white font-semibold text-sm">REAL VIBES. REAL RESULTS.</span>
             </div>
           </div>
@@ -1713,7 +1713,7 @@ export default function Home() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
               {/* Card 1: Brand Manager */}
               <div className="relative group cursor-pointer">
-                <div className="bg-[#1a1a1a] rounded-2xl overflow-hidden border border-gray-800 hover:border-green-500/50 transition-all duration-300">
+                <div className="bg-[#1a1a1a] rounded-2xl overflow-hidden border border-gray-800 hover:border-pink-500/50 transition-all duration-300">
                   {/* Video Thumbnail */}
                   <div className="relative h-64 bg-gradient-to-br from-gray-700 to-gray-900 flex items-center justify-center">
                     {/* Dummy Profile Image */}
@@ -1744,11 +1744,11 @@ export default function Home() {
 
               {/* Card 2: Solo Marketer */}
               <div className="relative group cursor-pointer">
-                <div className="bg-[#1a1a1a] rounded-2xl overflow-hidden border border-gray-800 hover:border-green-500/50 transition-all duration-300">
+                <div className="bg-[#1a1a1a] rounded-2xl overflow-hidden border border-gray-800 hover:border-pink-500/50 transition-all duration-300">
                   {/* Video Thumbnail */}
                   <div className="relative h-64 bg-gradient-to-br from-gray-600 to-gray-800 flex items-center justify-center">
                     {/* Dummy Profile Image */}
-                    <div className="w-32 h-32 bg-gradient-to-br from-green-400 to-blue-500 rounded-full flex items-center justify-center">
+                    <div className="w-32 h-32 bg-gradient-to-br from-pink-400 to-blue-500 rounded-full flex items-center justify-center">
                       <div className="w-24 h-24 bg-white/20 rounded-full flex items-center justify-center">
                         <svg className="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 20 20">
                           <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
@@ -1775,7 +1775,7 @@ export default function Home() {
 
               {/* Card 3: Media Agency */}
               <div className="relative group cursor-pointer">
-                <div className="bg-[#1a1a1a] rounded-2xl overflow-hidden border border-gray-800 hover:border-green-500/50 transition-all duration-300">
+                <div className="bg-[#1a1a1a] rounded-2xl overflow-hidden border border-gray-800 hover:border-pink-500/50 transition-all duration-300">
                   {/* Video Thumbnail */}
                   <div className="relative h-64 bg-gradient-to-br from-gray-500 to-gray-700 flex items-center justify-center">
                     {/* Dummy Profile Image */}
@@ -1806,7 +1806,7 @@ export default function Home() {
 
               {/* Card 4: Growth Team */}
               <div className="relative group cursor-pointer">
-                <div className="bg-[#1a1a1a] rounded-2xl overflow-hidden border border-gray-800 hover:border-green-500/50 transition-all duration-300">
+                <div className="bg-[#1a1a1a] rounded-2xl overflow-hidden border border-gray-800 hover:border-pink-500/50 transition-all duration-300">
                   {/* Video Thumbnail */}
                   <div className="relative h-64 bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center">
                     {/* Dummy Profile Image */}
@@ -1847,7 +1847,7 @@ export default function Home() {
       </section>
 
       {/* FAQ Section */}
-      <section id="faqs" className="relative py-12 sm:py-16 lg:py-24 bg-gradient-to-b from-purple-900/20 via-blue-900/20 to-green-900/20 overflow-hidden">
+      <section id="faqs" className="relative py-12 sm:py-16 lg:py-24 bg-gradient-to-b from-purple-900/20 via-blue-900/20 to-pink-900/20 overflow-hidden">
         {/* Background Particles */}
         <div className="absolute inset-0">
           {Array.from({length: 30}).map((_, i) => {
@@ -1884,10 +1884,10 @@ export default function Home() {
             {/* Left Column */}
             <div className="space-y-6">
               {/* FAQ 1 */}
-              <div className="bg-[#1a1a1a]/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-800 hover:border-green-500/30 transition-all duration-300">
+              <div className="bg-[#1a1a1a]/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-800 hover:border-pink-500/30 transition-all duration-300">
                 <div className="flex items-center justify-between mb-4">
                   <div className="flex items-center space-x-3">
-                    <span className="text-green-400 font-bold text-lg">1.</span>
+                    <span className="text-pink-400 font-bold text-lg">1.</span>
                     <h3 className="text-white font-semibold text-lg">What is Kaivalya Digitals and how does it work?</h3>
                   </div>
                   <button 
@@ -1911,10 +1911,10 @@ export default function Home() {
               </div>
 
               {/* FAQ 2 */}
-              <div className="bg-[#1a1a1a]/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-800 hover:border-green-500/30 transition-all duration-300">
+              <div className="bg-[#1a1a1a]/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-800 hover:border-pink-500/30 transition-all duration-300">
                 <div className="flex items-center justify-between mb-4">
                   <div className="flex items-center space-x-3">
-                    <span className="text-green-400 font-bold text-lg">2.</span>
+                    <span className="text-pink-400 font-bold text-lg">2.</span>
                     <h3 className="text-white font-semibold text-lg">Who does kaivalya digitals cater to?</h3>
                   </div>
                   <button 
@@ -1938,10 +1938,10 @@ export default function Home() {
               </div>
 
               {/* FAQ 3 */}
-              <div className="bg-[#1a1a1a]/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-800 hover:border-green-500/30 transition-all duration-300">
+              <div className="bg-[#1a1a1a]/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-800 hover:border-pink-500/30 transition-all duration-300">
                 <div className="flex items-center justify-between mb-4">
                   <div className="flex items-center space-x-3">
-                    <span className="text-green-400 font-bold text-lg">3.</span>
+                    <span className="text-pink-400 font-bold text-lg">3.</span>
                     <h3 className="text-white font-semibold text-lg">Which ad platforms are supported?</h3>
                   </div>
                   <button 
@@ -1965,10 +1965,10 @@ export default function Home() {
               </div>
 
               {/* FAQ 4 */}
-              <div className="bg-[#1a1a1a]/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-800 hover:border-green-500/30 transition-all duration-300">
+              <div className="bg-[#1a1a1a]/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-800 hover:border-pink-500/30 transition-all duration-300">
                 <div className="flex items-center justify-between mb-4">
                   <div className="flex items-center space-x-3">
-                    <span className="text-green-400 font-bold text-lg">4.</span>
+                    <span className="text-pink-400 font-bold text-lg">4.</span>
                     <h3 className="text-white font-semibold text-lg">Which tracking tools can I connect?</h3>
                   </div>
                   <button 
@@ -1995,10 +1995,10 @@ export default function Home() {
             {/* Right Column */}
             <div className="space-y-6">
               {/* FAQ 5 */}
-              <div className="bg-[#1a1a1a]/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-800 hover:border-green-500/30 transition-all duration-300">
+              <div className="bg-[#1a1a1a]/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-800 hover:border-pink-500/30 transition-all duration-300">
                 <div className="flex items-center justify-between mb-4">
                   <div className="flex items-center space-x-3">
-                    <span className="text-green-400 font-bold text-lg">5.</span>
+                    <span className="text-pink-400 font-bold text-lg">5.</span>
                     <h3 className="text-white font-semibold text-lg">How many ad accounts can I link?</h3>
                   </div>
                   <button 
@@ -2022,10 +2022,10 @@ export default function Home() {
               </div>
 
               {/* FAQ 6 */}
-              <div className="bg-[#1a1a1a]/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-800 hover:border-green-500/30 transition-all duration-300">
+              <div className="bg-[#1a1a1a]/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-800 hover:border-pink-500/30 transition-all duration-300">
                 <div className="flex items-center justify-between mb-4">
                   <div className="flex items-center space-x-3">
-                    <span className="text-green-400 font-bold text-lg">6.</span>
+                    <span className="text-pink-400 font-bold text-lg">6.</span>
                     <h3 className="text-white font-semibold text-lg">How accurate is the data inside Kaivalya Digitals?</h3>
                   </div>
                   <button 
@@ -2049,10 +2049,10 @@ export default function Home() {
               </div>
 
               {/* FAQ 7 */}
-              <div className="bg-[#1a1a1a]/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-800 hover:border-green-500/30 transition-all duration-300">
+              <div className="bg-[#1a1a1a]/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-800 hover:border-pink-500/30 transition-all duration-300">
                 <div className="flex items-center justify-between mb-4">
                   <div className="flex items-center space-x-3">
-                    <span className="text-green-400 font-bold text-lg">7.</span>
+                    <span className="text-pink-400 font-bold text-lg">7.</span>
                     <h3 className="text-white font-semibold text-lg">Can I launch campaigns directly from Kaivalya Digitals?</h3>
                   </div>
                   <button 
@@ -2076,10 +2076,10 @@ export default function Home() {
               </div>
 
               {/* FAQ 8 */}
-              <div className="bg-[#1a1a1a]/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-800 hover:border-green-500/30 transition-all duration-300">
+              <div className="bg-[#1a1a1a]/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-800 hover:border-pink-500/30 transition-all duration-300">
                 <div className="flex items-center justify-between mb-4">
                   <div className="flex items-center space-x-3">
-                    <span className="text-green-400 font-bold text-lg">8.</span>
+                    <span className="text-pink-400 font-bold text-lg">8.</span>
                     <h3 className="text-white font-semibold text-lg">Can I generate UGC ads inside Kaivalya Digitals?</h3>
                   </div>
                   <button 
@@ -2110,7 +2110,7 @@ export default function Home() {
       <section id="contact" className="relative py-12 sm:py-16 lg:py-24 bg-[#07090b] overflow-hidden">
         {/* Background Glow Effects */}
         <div className="absolute inset-0">
-          <div className="absolute bottom-0 left-0 w-96 h-96 bg-green-500/10 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-0 left-0 w-96 h-96 bg-pink-500/10 rounded-full blur-3xl"></div>
           <div className="absolute bottom-0 right-0 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"></div>
         </div>
 
@@ -2122,7 +2122,7 @@ export default function Home() {
                 Ready To Fix Your Next Campaign With Kaivalya Digitals?
               </h2>
               
-              <a href="https://wa.me/918299759969?text=Hello%2C%20I%20want%20Information%20About%20Kaivalya%20Digitals%20Services" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-green-500 to-purple-600 text-white px-8 sm:px-12 py-4 sm:py-5 rounded-xl font-semibold text-lg sm:text-xl hover:from-green-600 hover:to-purple-700 transition-all duration-300 transform hover:scale-105">
+              <a href="https://wa.me/918299759969?text=Hello%2C%20I%20want%20Information%20About%20Kaivalya%20Digitals%20Services" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-8 sm:px-12 py-4 sm:py-5 rounded-xl font-semibold text-lg sm:text-xl hover:from-pink-600 hover:to-purple-700 transition-all duration-300 transform hover:scale-105">
                 Get Quote Now
               </a>
             </div>
@@ -2150,10 +2150,10 @@ export default function Home() {
               <div>
                 <h3 className="text-lg font-semibold text-white mb-4">Quick Links</h3>
                 <div className="grid grid-cols-2 gap-2">
-                  <a href="#" className="text-gray-300 hover:text-green-400 transition-colors text-sm">Home</a>
-                  <a href="/about" className="text-gray-300 hover:text-green-400 transition-colors text-sm">About</a>
-                  <a href="#services" className="text-gray-300 hover:text-green-400 transition-colors text-sm">Services</a>
-                  <a href="/contact" className="text-gray-300 hover:text-green-400 transition-colors text-sm">Contact</a>
+                  <a href="#" className="text-gray-300 hover:text-pink-400 transition-colors text-sm">Home</a>
+                  <a href="/about" className="text-gray-300 hover:text-pink-400 transition-colors text-sm">About</a>
+                  <a href="#services" className="text-gray-300 hover:text-pink-400 transition-colors text-sm">Services</a>
+                  <a href="/contact" className="text-gray-300 hover:text-pink-400 transition-colors text-sm">Contact</a>
                 </div>
               </div>
 
@@ -2162,7 +2162,7 @@ export default function Home() {
                 <h3 className="text-lg font-semibold text-white mb-4">Contact Info</h3>
                 <div className="space-y-2 text-sm text-gray-300">
                   <div className="flex items-center space-x-2">
-                    <svg className="w-4 h-4 text-green-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-4 h-4 text-pink-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                     </svg>
                     <div>
@@ -2171,13 +2171,13 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="flex items-center space-x-2">
-                    <svg className="w-4 h-4 text-green-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-4 h-4 text-pink-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                     </svg>
                     <span>bd.team@kaivalyadigitals.com</span>
                   </div>
                   <div className="flex items-center space-x-2">
-                    <svg className="w-4 h-4 text-green-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-4 h-4 text-pink-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9v-9m0-9v9" />
                     </svg>
                     <span>www.kaivalyadigitals.com</span>
@@ -2217,7 +2217,7 @@ export default function Home() {
 
               {/* CTA Button */}
               <div>
-                <a href="https://wa.me/918299759969?text=Hello%2C%20I%20want%20Information%20About%20Kaivalya%20Digitals%20Services" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-green-500 to-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:from-green-600 hover:to-blue-700 transition-all">
+                <a href="https://wa.me/918299759969?text=Hello%2C%20I%20want%20Information%20About%20Kaivalya%20Digitals%20Services" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-pink-500 to-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:from-pink-600 hover:to-blue-700 transition-all">
                   Request a Quote
                 </a>
               </div>
@@ -2237,7 +2237,7 @@ export default function Home() {
           href="https://wa.me/918299759969?text=Hello%2C%20I%20want%20Information%20About%20Kaivalya%20Digitals%20Services"
           target="_blank" 
           rel="noopener noreferrer" 
-          className="fixed bottom-6 right-6 z-50 w-14 h-14 bg-green-500 rounded-full flex items-center justify-center shadow-lg hover:bg-green-600 transition-colors"
+          className="fixed bottom-6 right-6 z-50 w-14 h-14 bg-pink-500 rounded-full flex items-center justify-center shadow-lg hover:bg-pink-600 transition-colors"
         >
           <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
             <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
