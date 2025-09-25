@@ -262,10 +262,10 @@ export default function Home() {
       
 
       {/* Services Section */}
-      <section id="services" className="relative py-4 sm:py-6 lg:py-8 bg-gradient-to-b from-[#1a1a1a] to-[#0a0a0a]">
+      <section id="services" className="relative py-16 sm:py-20 lg:py-24 bg-gradient-to-b from-[#1a1a1a] to-[#0a0a0a]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Section Header */}
-          <div className="text-center mb-8">
+          <div className="text-center mb-16">
             <div className="inline-block bg-pink-900/20 border border-pink-500/30 rounded-full px-6 py-2 mb-4">
               <span className="text-pink-400 text-sm font-medium">Our Services</span>
             </div>
@@ -280,7 +280,7 @@ export default function Home() {
           </div>
 
           {/* Services Grid */}
-          <div className="grid md:grid-cols-2 gap-8 mb-8">
+          <div className="grid md:grid-cols-2 gap-12 mb-16">
             {/* Production & Post-Production */}
             <div className="bg-gradient-to-br from-red-900/20 to-orange-900/20 rounded-2xl p-8 border border-red-500/30 hover:border-red-400/50 transition-all">
               <div className="flex items-center mb-6">
@@ -399,7 +399,7 @@ export default function Home() {
           </div>
 
           {/* Process Section */}
-          <div className="mb-8">
+          <div className="mb-16">
             <h3 className="text-3xl font-bold text-center mb-6 text-pink-400">
               Our Process
             </h3>
@@ -439,22 +439,22 @@ export default function Home() {
       </section>
 
       {/* About Us Section */}
-      <section id="about" className="relative py-8 sm:py-10 lg:py-12 bg-gradient-to-b from-[#0a0a0a] to-[#1a1a1a]">
+      <section id="about" className="relative py-16 sm:py-20 lg:py-24 bg-gradient-to-b from-[#0a0a0a] to-[#1a1a1a]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             {/* Left Side - Content */}
             <div>
-              <div className="inline-block bg-pink-900/20 border border-pink-500/30 rounded-full px-6 py-2 mb-8">
+              <div className="inline-block bg-pink-900/20 border border-pink-500/30 rounded-full px-6 py-2 mb-12">
                 <span className="text-pink-400 text-sm font-medium">About Kaivalya Digitals</span>
               </div>
               
-              <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
+              <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-8">
                 <span className="shining-text shining-text-glow">Where Creativity</span>
                 <br />
                 <span className="text-pink-300 shining-text-shimmer">Meets Impact</span>
               </h2>
               
-              <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
+              <div className="space-y-8 text-lg text-gray-300 leading-relaxed">
                 <p>
                   Kaivalya Digitals Pvt. Ltd. is a full-service creative and digital agency 
                   offering 360° solutions in production, marketing, branding, and technology. 
@@ -469,7 +469,7 @@ export default function Home() {
                 </p>
               </div>
               
-              <div className="mt-8">
+              <div className="mt-12">
                 <a 
                   href="#services" 
                   className="inline-flex items-center gap-2 bg-gradient-to-r from-pink-500 to-blue-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:from-pink-600 hover:to-blue-700 transition-all"
@@ -508,7 +508,7 @@ export default function Home() {
       </section>
 
       {/* Campaign Clarity Section */}
-      <section className="relative py-12 sm:py-16 lg:py-24">
+      <section className="relative py-20 sm:py-24 lg:py-32">
         {/* Blurred Dashboard Background */}
         <div className="absolute inset-0 bg-[#0a0a0a]">
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4 lg:gap-6 p-4 sm:p-6 lg:p-8 opacity-30 blur-sm">
@@ -691,7 +691,7 @@ export default function Home() {
       </section>
 
       {/* Marketing Transformation Section - Full Screen */}
-      <section className="relative min-h-screen py-12 sm:py-16 lg:py-24">
+      <section className="relative min-h-screen py-20 sm:py-24 lg:py-32">
         {/* Continuous Running Background */}
         <div className="absolute inset-0 overflow-hidden">
           {/* Animated Gradient Background */}
@@ -1031,7 +1031,7 @@ export default function Home() {
       </a>
 
       {/* Integrations Slider Section */}
-      <section className="relative py-16 sm:py-20 lg:py-24 bg-gradient-to-b from-[#0a0a0a] to-[#1a1a1a]">
+      <section className="relative py-20 sm:py-24 lg:py-32 bg-gradient-to-b from-[#0a0a0a] to-[#1a1a1a]">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-5">
           <div className="grid grid-cols-8 sm:grid-cols-12 lg:grid-cols-16 gap-4 p-8">
@@ -1187,7 +1187,7 @@ export default function Home() {
       </section>
 
       {/* Smarter Campaigns Section */}
-      <section className="relative py-16 sm:py-20 lg:py-24 bg-gradient-to-b from-[#1a1a1a] to-[#0a0a0a]">
+      <section className="relative py-20 sm:py-24 lg:py-32 bg-gradient-to-b from-[#1a1a1a] to-[#0a0a0a]">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-5">
           <div className="grid grid-cols-8 sm:grid-cols-12 lg:grid-cols-16 gap-4 p-8">
