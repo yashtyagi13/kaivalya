@@ -106,14 +106,14 @@ export default function Home() {
 
       {/* Nav */}
       <header className="fixed top-0 inset-x-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-black/30">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-4 sm:py-6 flex items-center justify-between">
+        <div className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-8 py-5 sm:py-7 flex items-center justify-between">
           <div className="flex items-center">
             <Image
               src="/logo.png"
               alt="Kaivalya Digitals Pvt. Ltd. logo"
               width={768}
               height={129}
-              className="h-6 sm:h-8 w-auto"
+              className="h-10 sm:h-12 lg:h-14 w-auto"
               priority
             />
           </div>
@@ -238,39 +238,39 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Hero */}
-      <main id="home" className="relative mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 pt-24 sm:pt-20 lg:pt-24 pb-6 sm:pb-8 lg:pb-10 text-center">
-        <div className="inline-flex items-center gap-2 sm:gap-3 rounded-full border border-pink-500/40 bg-pink-400/10 px-4 sm:px-6 py-2 sm:py-3 text-xs sm:text-sm text-pink-300 shadow-[0_0_30px_-10px_rgba(236,72,153,1)]">
+        {/* Hero */}
+        <main id="home" className="relative mx-auto max-w-6xl px-6 sm:px-8 lg:px-8 min-h-screen flex flex-col justify-center items-center text-center">
+        <div className="inline-flex items-center gap-2 sm:gap-3 rounded-full border border-pink-500/40 bg-pink-400/10 px-4 sm:px-6 py-2 sm:py-3 text-xs sm:text-sm text-pink-300 shadow-[0_0_30px_-10px_rgba(236,72,153,1)] mb-6 sm:mb-8">
           ✨ The World&apos;s Best Vibe Marketing Platform
         </div>
-        <h1 className="mt-3 sm:mt-4 text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold tracking-tight leading-tight">
+        <h1 className="mb-4 sm:mb-6 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold tracking-tight leading-tight">
           <span className="shining-text shining-text-glow">Where Creativity Meets Impact</span>
           <br />
           <span className="text-pink-300 shining-text-shimmer">Innovating Narratives | Empowering Brands | Redefining Digital</span>
         </h1>
-        <p className="mx-auto mt-2 sm:mt-3 max-w-xl sm:max-w-2xl text-sm sm:text-base lg:text-lg text-white/70 px-4">
+        <p className="mx-auto mb-6 sm:mb-8 max-w-xl sm:max-w-2xl text-sm sm:text-base lg:text-lg text-white/70 px-6">
           Innovating Narratives | Empowering Brands | Redefining Digital
         </p>
-        <div className="mt-4 sm:mt-5 flex items-center justify-center px-4">
+        <div className="mb-4 sm:mb-6 flex items-center justify-center px-6">
           <a id="contact" href="https://wa.me/918299759969?text=Hello%2C%20I%20want%20Information%20About%20Kaivalya%20Digitals%20Services" target="_blank" rel="noopener noreferrer" className="rounded-full bg-[#5b74ff] hover:bg-[#6c83ff] px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base font-medium text-white shadow-[0_10px_30px_-10px_rgba(91,116,255,.9)] transition-all duration-300">
             Get Quote
           </a>
         </div>
-        <p className="mt-2 sm:mt-3 text-xs text-white/60">No credit card required</p>
+        <p className="text-xs text-white/60">No credit card required</p>
       </main>
 
       
 
-      {/* Services Section */}
-      <section id="services" className="relative py-16 sm:py-20 lg:py-24 bg-gradient-to-b from-[#1a1a1a] to-[#0a0a0a]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Services Section */}
+        <section id="services" className="relative py-12 sm:py-16 lg:py-20 bg-gradient-to-b from-[#1a1a1a] to-[#0a0a0a]">
+        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-8">
           {/* Section Header */}
-          <div className="text-center mb-16">
+          <div className="text-center mb-12">
             <div className="inline-block bg-pink-900/20 border border-pink-500/30 rounded-full px-6 py-2 mb-4">
               <span className="text-pink-400 text-sm font-medium">Our Services</span>
             </div>
             
-            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-3">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-3">
               <span className="shining-text shining-text-glow">Key Services</span>
             </h2>
             
@@ -440,7 +440,7 @@ export default function Home() {
 
       {/* About Us Section */}
       <section id="about" className="relative py-16 sm:py-20 lg:py-24 bg-gradient-to-b from-[#0a0a0a] to-[#1a1a1a]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             {/* Left Side - Content */}
             <div>
@@ -448,7 +448,7 @@ export default function Home() {
                 <span className="text-pink-400 text-sm font-medium">About Kaivalya Digitals</span>
               </div>
               
-              <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-8">
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-8">
                 <span className="shining-text shining-text-glow">Where Creativity</span>
                 <br />
                 <span className="text-pink-300 shining-text-shimmer">Meets Impact</span>
@@ -586,7 +586,7 @@ export default function Home() {
         </div>
 
         {/* Campaign Clarity Modal */}
-        <div className="relative z-20 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="relative z-20 max-w-6xl mx-auto px-6 sm:px-8 lg:px-8">
           <div className="bg-[#1a1a1a]/90 backdrop-blur-sm border-2 border-pink-400/50 rounded-2xl p-4 sm:p-6 lg:p-8 shadow-2xl shadow-[0_0_40px_rgba(236,72,153,0.2)]">
             {/* Modal Header */}
             <div className="text-center mb-8 sm:mb-10 lg:mb-12">
@@ -748,7 +748,7 @@ export default function Home() {
 
         {/* Header */}
         <div className="relative z-10 text-center mb-12 sm:mb-16 lg:mb-20 px-4">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold bg-gradient-to-r from-pink-400 via-blue-400 to-purple-400 bg-clip-text text-transparent animate-pulse">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold bg-gradient-to-r from-pink-400 via-blue-400 to-purple-400 bg-clip-text text-transparent animate-pulse">
             Marketing Transformation
           </h2>
           <p className="mt-4 sm:mt-6 lg:mt-8 text-lg sm:text-xl lg:text-2xl text-white/70 max-w-4xl mx-auto px-4">
@@ -757,7 +757,7 @@ export default function Home() {
         </div>
 
         {/* Two Panels */}
-        <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="relative z-20 max-w-7xl mx-auto px-6 sm:px-8 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16">
             
             {/* Left Panel: Chaotic Marketing */}
@@ -1052,7 +1052,7 @@ export default function Home() {
         </div>
 
         {/* Logo Slider - Exact Design */}
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8 lg:px-8">
           <div className="overflow-hidden">
             <div 
               className="flex space-x-12 sm:space-x-16 lg:space-x-20" 
@@ -1210,11 +1210,11 @@ export default function Home() {
         </div>
 
         {/* Stats Grid */}
-        <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="relative z-10 max-w-6xl mx-auto px-6 sm:px-8 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {/* +80% Box */}
             <div className="bg-gradient-to-br from-pink-900/30 to-pink-800/20 border-2 border-pink-400/50 rounded-2xl p-6 sm:p-8 text-center hover:border-pink-400/80 transition-all duration-300">
-              <div className="text-4xl sm:text-5xl lg:text-6xl font-bold text-pink-400 mb-3 sm:mb-4" id="stat1">
+              <div className="text-3xl sm:text-4xl lg:text-5xl font-bold text-pink-400 mb-3 sm:mb-4" id="stat1">
                 0%
               </div>
               <p className="text-white/80 text-sm sm:text-base lg:text-lg">
@@ -1224,7 +1224,7 @@ export default function Home() {
 
             {/* 5M Box */}
             <div className="bg-gradient-to-br from-purple-900/30 to-red-900/20 border-2 border-purple-400/50 rounded-2xl p-6 sm:p-8 text-center hover:border-purple-400/80 transition-all duration-300">
-              <div className="text-4xl sm:text-5xl lg:text-6xl font-bold text-purple-400 mb-3 sm:mb-4" id="stat2">
+              <div className="text-3xl sm:text-4xl lg:text-5xl font-bold text-purple-400 mb-3 sm:mb-4" id="stat2">
                 0M
               </div>
               <p className="text-white/80 text-sm sm:text-base lg:text-lg">
@@ -1234,7 +1234,7 @@ export default function Home() {
 
             {/* 10X Box */}
             <div className="bg-gradient-to-br from-red-900/30 to-orange-900/20 border-2 border-red-400/50 rounded-2xl p-6 sm:p-8 text-center hover:border-red-400/80 transition-all duration-300">
-              <div className="text-4xl sm:text-5xl lg:text-6xl font-bold text-red-400 mb-3 sm:mb-4" id="stat3">
+              <div className="text-3xl sm:text-4xl lg:text-5xl font-bold text-red-400 mb-3 sm:mb-4" id="stat3">
                 0X
               </div>
               <p className="text-white/80 text-sm sm:text-base lg:text-lg">
@@ -1244,7 +1244,7 @@ export default function Home() {
 
             {/* 300% Box */}
             <div className="bg-gradient-to-br from-blue-900/30 to-purple-900/20 border-2 border-blue-400/50 rounded-2xl p-6 sm:p-8 text-center hover:border-blue-400/80 transition-all duration-300">
-              <div className="text-4xl sm:text-5xl lg:text-6xl font-bold text-blue-400 mb-3 sm:mb-4" id="stat4">
+              <div className="text-3xl sm:text-4xl lg:text-5xl font-bold text-blue-400 mb-3 sm:mb-4" id="stat4">
                 0%
               </div>
               <p className="text-white/80 text-sm sm:text-base lg:text-lg">
@@ -1254,7 +1254,7 @@ export default function Home() {
 
             {/* 100+ Box */}
             <div className="bg-gradient-to-br from-pink-900/30 to-emerald-900/20 border-2 border-pink-400/50 rounded-2xl p-6 sm:p-8 text-center hover:border-pink-400/80 transition-all duration-300">
-              <div className="text-4xl sm:text-5xl lg:text-6xl font-bold text-pink-400 mb-3 sm:mb-4" id="stat5">
+              <div className="text-3xl sm:text-4xl lg:text-5xl font-bold text-pink-400 mb-3 sm:mb-4" id="stat5">
                 0+
               </div>
               <p className="text-white/80 text-sm sm:text-base lg:text-lg">
@@ -1284,7 +1284,7 @@ export default function Home() {
         </div>
 
         {/* Steps */}
-        <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="relative z-10 max-w-6xl mx-auto px-6 sm:px-8 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 sm:gap-12 lg:gap-16 mb-12 sm:mb-16 lg:mb-20">
             {/* Step 1 */}
             <div className="text-center">
@@ -1335,7 +1335,7 @@ export default function Home() {
         </div>
 
         {/* Features Section */}
-        <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-16 sm:mt-20 lg:mt-24">
+        <div className="relative z-10 max-w-6xl mx-auto px-6 sm:px-8 lg:px-8 mt-16 sm:mt-20 lg:mt-24">
           <div className="text-center mb-8 sm:mb-12">
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-6">
               Features That <span className="text-pink-400">Actually Matter</span>
@@ -1368,7 +1368,7 @@ export default function Home() {
 
       {/* Spend Insights Section */}
       <section className="relative py-12 sm:py-16 lg:py-24 bg-[#0a0a0a]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             {/* Left Side - Main Content */}
             <div className="space-y-8">
@@ -1499,9 +1499,9 @@ export default function Home() {
 
       {/* Why Choose Kaivalya Digitals Section */}
       <section className="relative py-12 sm:py-16 lg:py-24 bg-[#07090b]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
               Why Choose Kaivalya Digitals
             </h2>
           </div>
@@ -1679,7 +1679,7 @@ export default function Home() {
 
       {/* Trusted By Marketers Worldwide Section */}
       <section id="review" className="relative py-12 sm:py-16 lg:py-24 bg-[#07090b]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-8">
           {/* Badge */}
           <div className="text-center mb-8">
             <div className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-pink-500/20 to-blue-500/20 border border-pink-500/30 rounded-full">
@@ -1689,7 +1689,7 @@ export default function Home() {
 
           {/* Main Title */}
           <div className="text-center mb-16">
-            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white">
               Trusted By Marketers Worldwide
             </h2>
           </div>
@@ -1871,10 +1871,10 @@ export default function Home() {
           })}
         </div>
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-8 relative z-10">
           {/* Section Title */}
           <div className="text-center mb-16">
-            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
               FAQ&apos;S
             </h2>
           </div>
@@ -2114,7 +2114,7 @@ export default function Home() {
           <div className="absolute bottom-0 right-0 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"></div>
         </div>
 
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-8 relative z-10">
           <div className="bg-[#1a1a1a]/80 backdrop-blur-sm rounded-3xl p-8 sm:p-12 border border-gray-800">
             {/* Main CTA */}
             <div className="text-center mb-8">
