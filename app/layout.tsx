@@ -16,9 +16,9 @@ export const metadata: Metadata = {
   title: "Kaivalya Digitals",
   description: "Full-service creative and digital agency offering 360° solutions in production, marketing, branding, and technology.",
   icons: {
-    icon: '/logo.png',
-    shortcut: '/logo.png',
-    apple: '/logo.png',
+    icon: '/thumbnail.jpg',
+    shortcut: '/thumbnail.jpg',
+    apple: '/thumbnail.jpg',
   },
 };
 
