@@ -281,45 +281,13 @@ export default function Home() {
 
           {/* Services Grid */}
           <div className="grid md:grid-cols-2 gap-12 mb-16">
-            {/* Production & Post-Production */}
-            <div className="bg-gradient-to-br from-red-900/20 to-orange-900/20 rounded-2xl p-8 border border-red-500/30 hover:border-red-400/50 transition-all">
-              <div className="flex items-center mb-6">
-                <div className="w-16 h-16 bg-red-500/20 rounded-xl flex items-center justify-center mr-4">
-                  <span className="text-3xl">🎬</span>
-                </div>
-                <h3 className="text-2xl font-bold text-white">Production & Post-Production</h3>
-              </div>
-              <ul className="space-y-3 text-gray-300">
-                <li className="flex items-center">
-                  <span className="w-2 h-2 bg-red-400 rounded-full mr-3"></span>
-                  Videos
-                </li>
-                <li className="flex items-center">
-                  <span className="w-2 h-2 bg-red-400 rounded-full mr-3"></span>
-                  Photography
-                </li>
-                <li className="flex items-center">
-                  <span className="w-2 h-2 bg-red-400 rounded-full mr-3"></span>
-                  Editing
-                </li>
-                <li className="flex items-center">
-                  <span className="w-2 h-2 bg-red-400 rounded-full mr-3"></span>
-                  Documentaries
-                </li>
-                <li className="flex items-center">
-                  <span className="w-2 h-2 bg-red-400 rounded-full mr-3"></span>
-                  Reels
-                </li>
-              </ul>
-            </div>
-
-            {/* Advertising & Marketing */}
+            {/* 1. Marketing Services */}
             <div className="bg-gradient-to-br from-blue-900/20 to-cyan-900/20 rounded-2xl p-8 border border-blue-500/30 hover:border-blue-400/50 transition-all">
               <div className="flex items-center mb-6">
                 <div className="w-16 h-16 bg-blue-500/20 rounded-xl flex items-center justify-center mr-4">
                   <span className="text-3xl">📈</span>
                 </div>
-                <h3 className="text-2xl font-bold text-white">Advertising & Marketing</h3>
+                <h3 className="text-2xl font-bold text-white">Marketing Services</h3>
               </div>
               <ul className="space-y-3 text-gray-300">
                 <li className="flex items-center">
@@ -328,11 +296,11 @@ export default function Home() {
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-blue-400 rounded-full mr-3"></span>
-                  Social Media
+                  Social Media Marketing
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-blue-400 rounded-full mr-3"></span>
-                  Ad Campaigns
+                  Content Marketing
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-blue-400 rounded-full mr-3"></span>
@@ -341,41 +309,41 @@ export default function Home() {
               </ul>
             </div>
 
-            {/* Creative & Branding */}
-            <div className="bg-gradient-to-br from-purple-900/20 to-pink-900/20 rounded-2xl p-8 border border-purple-500/30 hover:border-purple-400/50 transition-all">
+            {/* 2. Advertising Services */}
+            <div className="bg-gradient-to-br from-green-900/20 to-emerald-900/20 rounded-2xl p-8 border border-green-500/30 hover:border-green-400/50 transition-all">
               <div className="flex items-center mb-6">
-                <div className="w-16 h-16 bg-purple-500/20 rounded-xl flex items-center justify-center mr-4">
-                  <span className="text-3xl">🎨</span>
+                <div className="w-16 h-16 bg-green-500/20 rounded-xl flex items-center justify-center mr-4">
+                  <span className="text-3xl">📢</span>
                 </div>
-                <h3 className="text-2xl font-bold text-white">Creative & Branding</h3>
+                <h3 className="text-2xl font-bold text-white">Advertising Services</h3>
               </div>
               <ul className="space-y-3 text-gray-300">
                 <li className="flex items-center">
-                  <span className="w-2 h-2 bg-purple-400 rounded-full mr-3"></span>
-                  Logo Design
+                  <span className="w-2 h-2 bg-green-400 rounded-full mr-3"></span>
+                  Ad Campaigns
                 </li>
                 <li className="flex items-center">
-                  <span className="w-2 h-2 bg-purple-400 rounded-full mr-3"></span>
-                  Brand Identity
+                  <span className="w-2 h-2 bg-green-400 rounded-full mr-3"></span>
+                  PPC Management
                 </li>
                 <li className="flex items-center">
-                  <span className="w-2 h-2 bg-purple-400 rounded-full mr-3"></span>
-                  Packaging Design
+                  <span className="w-2 h-2 bg-green-400 rounded-full mr-3"></span>
+                  Display Advertising
                 </li>
                 <li className="flex items-center">
-                  <span className="w-2 h-2 bg-purple-400 rounded-full mr-3"></span>
-                  Graphic Design
+                  <span className="w-2 h-2 bg-green-400 rounded-full mr-3"></span>
+                  Video Advertising
                 </li>
               </ul>
             </div>
 
-            {/* Digital Solutions */}
+            {/* 3. Digital Services */}
             <div className="bg-gradient-to-br from-pink-900/20 to-emerald-900/20 rounded-2xl p-8 border border-pink-500/30 hover:border-pink-400/50 transition-all">
               <div className="flex items-center mb-6">
                 <div className="w-16 h-16 bg-pink-500/20 rounded-xl flex items-center justify-center mr-4">
                   <span className="text-3xl">💻</span>
                 </div>
-                <h3 className="text-2xl font-bold text-white">Digital Solutions</h3>
+                <h3 className="text-2xl font-bold text-white">Digital Services</h3>
               </div>
               <ul className="space-y-3 text-gray-300">
                 <li className="flex items-center">
@@ -393,6 +361,90 @@ export default function Home() {
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-pink-400 rounded-full mr-3"></span>
                   YouTube Channel Optimization
+                </li>
+              </ul>
+            </div>
+
+            {/* 4. Production Services */}
+            <div className="bg-gradient-to-br from-red-900/20 to-orange-900/20 rounded-2xl p-8 border border-red-500/30 hover:border-red-400/50 transition-all">
+              <div className="flex items-center mb-6">
+                <div className="w-16 h-16 bg-red-500/20 rounded-xl flex items-center justify-center mr-4">
+                  <span className="text-3xl">🎬</span>
+                </div>
+                <h3 className="text-2xl font-bold text-white">Production Services</h3>
+              </div>
+              <ul className="space-y-3 text-gray-300">
+                <li className="flex items-center">
+                  <span className="w-2 h-2 bg-red-400 rounded-full mr-3"></span>
+                  Videos
+                </li>
+                <li className="flex items-center">
+                  <span className="w-2 h-2 bg-red-400 rounded-full mr-3"></span>
+                  Photography
+                </li>
+                <li className="flex items-center">
+                  <span className="w-2 h-2 bg-red-400 rounded-full mr-3"></span>
+                  Documentaries
+                </li>
+                <li className="flex items-center">
+                  <span className="w-2 h-2 bg-red-400 rounded-full mr-3"></span>
+                  Reels
+                </li>
+              </ul>
+            </div>
+
+            {/* 5. Post Production Services */}
+            <div className="bg-gradient-to-br from-purple-900/20 to-pink-900/20 rounded-2xl p-8 border border-purple-500/30 hover:border-purple-400/50 transition-all">
+              <div className="flex items-center mb-6">
+                <div className="w-16 h-16 bg-purple-500/20 rounded-xl flex items-center justify-center mr-4">
+                  <span className="text-3xl">✂️</span>
+                </div>
+                <h3 className="text-2xl font-bold text-white">Post Production Services</h3>
+              </div>
+              <ul className="space-y-3 text-gray-300">
+                <li className="flex items-center">
+                  <span className="w-2 h-2 bg-purple-400 rounded-full mr-3"></span>
+                  Video Editing
+                </li>
+                <li className="flex items-center">
+                  <span className="w-2 h-2 bg-purple-400 rounded-full mr-3"></span>
+                  Color Grading
+                </li>
+                <li className="flex items-center">
+                  <span className="w-2 h-2 bg-purple-400 rounded-full mr-3"></span>
+                  Motion Graphics
+                </li>
+                <li className="flex items-center">
+                  <span className="w-2 h-2 bg-purple-400 rounded-full mr-3"></span>
+                  Audio Post Production
+                </li>
+              </ul>
+            </div>
+
+            {/* 6. Other Services */}
+            <div className="bg-gradient-to-br from-yellow-900/20 to-orange-900/20 rounded-2xl p-8 border border-yellow-500/30 hover:border-yellow-400/50 transition-all">
+              <div className="flex items-center mb-6">
+                <div className="w-16 h-16 bg-yellow-500/20 rounded-xl flex items-center justify-center mr-4">
+                  <span className="text-3xl">🎨</span>
+                </div>
+                <h3 className="text-2xl font-bold text-white">Other Services</h3>
+              </div>
+              <ul className="space-y-3 text-gray-300">
+                <li className="flex items-center">
+                  <span className="w-2 h-2 bg-yellow-400 rounded-full mr-3"></span>
+                  Logo Design
+                </li>
+                <li className="flex items-center">
+                  <span className="w-2 h-2 bg-yellow-400 rounded-full mr-3"></span>
+                  Brand Identity
+                </li>
+                <li className="flex items-center">
+                  <span className="w-2 h-2 bg-yellow-400 rounded-full mr-3"></span>
+                  Packaging Design
+                </li>
+                <li className="flex items-center">
+                  <span className="w-2 h-2 bg-yellow-400 rounded-full mr-3"></span>
+                  Graphic Design
                 </li>
               </ul>
             </div>
