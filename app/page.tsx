@@ -36,7 +36,7 @@ export default function Home() {
     });
 
     // Observe all sections
-    const sections = ['home', 'about', 'services', 'review', 'faqs', 'contact'];
+    const sections = ['home', 'about', 'services', 'testimonials', 'faqs', 'contact'];
     sections.forEach(sectionId => {
       const element = document.getElementById(sectionId);
       if (element) {
@@ -149,14 +149,14 @@ export default function Home() {
               Services
             </a>
             <a 
-              href="#review" 
+              href="#testimonials" 
               className={`font-medium transition-colors ${
-                activeSection === 'review' 
+                activeSection === 'testimonials' 
                   ? 'text-pink-400' 
                   : 'text-white hover:text-white/80'
               }`}
             >
-              Review
+              Testimonials
             </a>
             <a 
               href="#faqs" 
@@ -221,7 +221,7 @@ export default function Home() {
             <a href="#home" onClick={() => setIsMenuOpen(false)} className="block text-lg font-medium hover:text-white/80">Home</a>
             <a href="#about" onClick={() => setIsMenuOpen(false)} className="block text-lg font-medium hover:text-white/80">About Us</a>
             <a href="#services" onClick={() => setIsMenuOpen(false)} className="block text-lg font-medium hover:text-white/80">Services</a>
-            <a href="#review" onClick={() => setIsMenuOpen(false)} className="block text-lg font-medium hover:text-white/80">Review</a>
+            <a href="#testimonials" onClick={() => setIsMenuOpen(false)} className="block text-lg font-medium hover:text-white/80">Testimonials</a>
             <a href="#faqs" onClick={() => setIsMenuOpen(false)} className="block text-lg font-medium hover:text-white/80">FAQ&apos;S</a>
             <a href="#contact" onClick={() => setIsMenuOpen(false)} className="block text-lg font-medium hover:text-white/80">Contact Us</a>
             <div className="pt-6 border-t border-white/10">
@@ -239,14 +239,14 @@ export default function Home() {
       </div>
 
         {/* Hero */}
-        <main id="home" className="relative mx-auto max-w-6xl px-6 sm:px-8 lg:px-8 min-h-screen flex flex-col justify-start items-center text-center pt-20 sm:pt-24 lg:pt-32">
+        <main id="home" className="relative mx-auto max-w-6xl px-6 sm:px-8 lg:px-8 min-h-[70vh] sm:min-h-screen lg:min-h-screen flex flex-col justify-center items-center text-center pt-20 sm:pt-24 lg:pt-32">
         <div className="inline-flex items-center gap-2 sm:gap-3 rounded-full border border-pink-500/40 bg-pink-400/10 px-4 sm:px-6 py-2 sm:py-3 text-xs sm:text-sm text-pink-300 shadow-[0_0_30px_-10px_rgba(236,72,153,1)] mb-6 sm:mb-8">
           ✨ World&apos;s one of Best Digital marketing Platform
         </div>
         <h1 className="mb-4 sm:mb-6 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold tracking-tight leading-tight">
           <span className="shining-text shining-text-glow">Where Creativity Meets Impact</span>
           <br />
-          <span className="text-pink-300 shining-text-shimmer">Innovating Narratives | Empowering Brands | Redefining Digital</span>
+          <span className="text-pink-300 shining-text-shimmer">Smarter Stories. Stronger Brands</span>
         </h1>
         <p className="mx-auto mb-6 sm:mb-8 max-w-xl sm:max-w-2xl text-sm sm:text-base lg:text-lg text-white/70 px-6">
           Innovating Narratives | Empowering Brands | Redefining Digital
@@ -256,7 +256,6 @@ export default function Home() {
             Get Quote
           </a>
         </div>
-        <p className="text-xs text-white/60">No credit card required</p>
       </main>
 
       
@@ -496,7 +495,7 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             {/* Left Side - Content */}
             <div>
-              <div className="inline-block bg-pink-900/20 border border-pink-500/30 rounded-full px-6 py-2 mb-12">
+              <div className="inline-block bg-pink-900/20 border border-pink-500/30 rounded-full px-6 py-2 mb-12 mx-auto text-center">
                 <span className="text-pink-400 text-sm font-medium">About Kaivalya Digitals</span>
               </div>
               
@@ -1183,10 +1182,10 @@ export default function Home() {
                     <svg className="w-6 h-6 sm:w-8 sm:h-8 lg:w-10 lg:h-10 text-white" viewBox="0 0 24 24" fill="currentColor">
                       <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
                     </svg>
-                  </div>
+                      </div>
                   <span className="text-white text-lg sm:text-xl lg:text-2xl font-medium">YouTube</span>
-                </div>
-              </div>
+                    </div>
+                  </div>
               
               <div className="flex items-center justify-center min-w-max">
                 <div className="flex items-center gap-3">
@@ -1198,7 +1197,7 @@ export default function Home() {
                   <span className="text-white text-lg sm:text-xl lg:text-2xl font-medium">Twitter</span>
                 </div>
               </div>
-              
+
               <div className="flex items-center justify-center min-w-max">
                 <div className="flex items-center gap-3">
                   <div className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 bg-gradient-to-br from-pink-500 to-purple-600 rounded-lg flex items-center justify-center">
@@ -1842,7 +1841,7 @@ export default function Home() {
       </section>
 
       {/* Trusted By Marketers Worldwide Section */}
-      <section id="review" className="relative py-12 sm:py-16 lg:py-24 bg-[#07090b]">
+      <section id="testimonials" className="relative py-12 sm:py-16 lg:py-24 bg-[#07090b]">
         <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-8">
           {/* Badge */}
           <div className="text-center mb-8">
@@ -1876,8 +1875,8 @@ export default function Home() {
             {/* Testimonial Cards */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
               {/* Card 1: Brand Manager */}
-              <div className="relative group cursor-pointer">
-                <div className="bg-[#1a1a1a] rounded-2xl overflow-hidden border border-gray-800 hover:border-pink-500/50 transition-all duration-300">
+              <div className="relative group cursor-pointer h-full">
+                <div className="bg-[#1a1a1a] rounded-2xl overflow-hidden border-2 border-pink-500/60 hover:border-pink-400 transition-all duration-300 h-full flex flex-col">
                   {/* Video Thumbnail */}
                   <div className="relative h-64 bg-gradient-to-br from-gray-700 to-gray-900 flex items-center justify-center">
                     {/* Dummy Profile Image */}
@@ -1900,15 +1899,15 @@ export default function Home() {
                   </div>
                   
                   {/* Card Label */}
-                  <div className="p-4 text-center">
+                  <div className="p-4 text-center flex-grow flex items-center justify-center">
                     <span className="text-white font-semibold text-sm">BRAND MANAGER</span>
                   </div>
                 </div>
               </div>
 
               {/* Card 2: Solo Marketer */}
-              <div className="relative group cursor-pointer">
-                <div className="bg-[#1a1a1a] rounded-2xl overflow-hidden border border-gray-800 hover:border-pink-500/50 transition-all duration-300">
+              <div className="relative group cursor-pointer h-full">
+                <div className="bg-[#1a1a1a] rounded-2xl overflow-hidden border-2 border-pink-500/60 hover:border-pink-400 transition-all duration-300 h-full flex flex-col">
                   {/* Video Thumbnail */}
                   <div className="relative h-64 bg-gradient-to-br from-gray-600 to-gray-800 flex items-center justify-center">
                     {/* Dummy Profile Image */}
@@ -1931,15 +1930,15 @@ export default function Home() {
                   </div>
                   
                   {/* Card Label */}
-                  <div className="p-4 text-center">
+                  <div className="p-4 text-center flex-grow flex items-center justify-center">
                     <span className="text-white font-semibold text-sm">SOLO MARKETER</span>
                   </div>
                 </div>
               </div>
 
               {/* Card 3: Media Agency */}
-              <div className="relative group cursor-pointer">
-                <div className="bg-[#1a1a1a] rounded-2xl overflow-hidden border border-gray-800 hover:border-pink-500/50 transition-all duration-300">
+              <div className="relative group cursor-pointer h-full">
+                <div className="bg-[#1a1a1a] rounded-2xl overflow-hidden border-2 border-pink-500/60 hover:border-pink-400 transition-all duration-300 h-full flex flex-col">
                   {/* Video Thumbnail */}
                   <div className="relative h-64 bg-gradient-to-br from-gray-500 to-gray-700 flex items-center justify-center">
                     {/* Dummy Profile Image */}
@@ -1962,15 +1961,15 @@ export default function Home() {
                   </div>
                   
                   {/* Card Label */}
-                  <div className="p-4 text-center">
+                  <div className="p-4 text-center flex-grow flex items-center justify-center">
                     <span className="text-white font-semibold text-sm">MEDIA AGENCY</span>
                   </div>
                 </div>
               </div>
 
               {/* Card 4: Growth Team */}
-              <div className="relative group cursor-pointer">
-                <div className="bg-[#1a1a1a] rounded-2xl overflow-hidden border border-gray-800 hover:border-pink-500/50 transition-all duration-300">
+              <div className="relative group cursor-pointer h-full">
+                <div className="bg-[#1a1a1a] rounded-2xl overflow-hidden border-2 border-pink-500/60 hover:border-pink-400 transition-all duration-300 h-full flex flex-col">
                   {/* Video Thumbnail */}
                   <div className="relative h-64 bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center">
                     {/* Dummy Profile Image */}
@@ -1993,7 +1992,7 @@ export default function Home() {
                   </div>
                   
                   {/* Card Label and Additional Info */}
-                  <div className="p-4 text-center">
+                  <div className="p-4 text-center flex-grow flex flex-col items-center justify-center">
                     <span className="text-white font-semibold text-sm block mb-2">GROWTH TEAM</span>
                     <p className="text-gray-400 text-xs mb-2">We cut ad waste by 38% and tracked ROI live</p>
                     {/* University Logo Placeholder */}
@@ -2283,7 +2282,7 @@ export default function Home() {
             {/* Main CTA */}
             <div className="text-center mb-8">
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-8">
-                Ready To Fix Your Next Campaign With Kaivalya Digitals?
+                Ready To Fix Your Next Campaign With Kaivalya&nbsp;Digitals?
               </h2>
               
               <a href="https://wa.me/918299759969?text=Hello%2C%20I%20want%20Information%20About%20Kaivalya%20Digitals%20Services" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-8 sm:px-12 py-4 sm:py-5 rounded-xl font-semibold text-lg sm:text-xl hover:from-pink-600 hover:to-purple-700 transition-all duration-300 transform hover:scale-105">
@@ -2295,7 +2294,7 @@ export default function Home() {
             <div className="border-t border-gray-700 my-8"></div>
 
             {/* Footer Content */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
               {/* Company Info */}
               <div>
                 <div className="flex items-center space-x-2 mb-4">
@@ -2317,7 +2316,18 @@ export default function Home() {
                   <a href="#" className="text-gray-300 hover:text-pink-400 transition-colors text-sm">Home</a>
                   <a href="/about" className="text-gray-300 hover:text-pink-400 transition-colors text-sm">About</a>
                   <a href="#services" className="text-gray-300 hover:text-pink-400 transition-colors text-sm">Services</a>
-                  <a href="/contact" className="text-gray-300 hover:text-pink-400 transition-colors text-sm">Contact</a>
+                  <a href="#contact" className="text-gray-300 hover:text-pink-400 transition-colors text-sm">Contact</a>
+                </div>
+              </div>
+
+              {/* Our Branches */}
+              <div>
+                <h3 className="text-lg font-semibold text-white mb-4">Our Branches</h3>
+                <div className="space-y-2 text-sm text-gray-300">
+                  <div className="text-gray-300 hover:text-pink-400 transition-colors">LUCKNOW</div>
+                  <div className="text-gray-300 hover:text-pink-400 transition-colors">NOIDA</div>
+                  <div className="text-gray-300 hover:text-pink-400 transition-colors">MUMBAI</div>
+                  <div className="text-gray-300 hover:text-pink-400 transition-colors">BANGALORE</div>
                 </div>
               </div>
 
@@ -2405,8 +2415,8 @@ export default function Home() {
         >
           <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
             <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
-            </svg>
-        </a>
+          </svg>
+      </a>
       </section>
     </div>
   );
